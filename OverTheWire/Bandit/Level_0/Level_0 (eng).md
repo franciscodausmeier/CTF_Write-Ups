@@ -3,7 +3,7 @@
 
 # [OverTheWire.](https://overthewire.org/wargames/)
 
-## [Bandit](https://overthewire.org/wargames/bandit/bandit0.html) CTF Write-up, Level 0. 
+## [Bandit, level 0](https://overthewire.org/wargames/bandit/bandit0.html) CTF Write-up. 
 
 - - -
 
