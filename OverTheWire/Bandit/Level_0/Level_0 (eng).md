@@ -28,9 +28,13 @@ page to find out how to beat Level 1.
 
 ### Procedure.
 
-1. .
-2. .
-3. .
+1. Use the key details given by the description of the challenge to fill the " **SSH** " command
+    to log into the corresponding server for the challenge, following the structure of the command:
+
+    ``` ssh user_name@host_name -p 2220 ```
+
+2. 
+3. 
 
 - - -
 
