@@ -9,7 +9,7 @@
 
 ### Level 0 - Log with SSH.
 
-#### ) Description of the challenge_:
+#### ) Description of the challenge:
 
 The goal of this level is for you to log into the game using SSH. 
 The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. 
@@ -17,7 +17,7 @@ The username is bandit0 and the password is bandit0. Once logged in, go to the L
 page to find out how to beat Level 1.
 
 
-#### ) Information given by the challenge_:
+#### ) Information given by the challenge:
 
 - _hostname_: " **bandit.labs.overthewire.org** ".
 - _port_: **"22**" (2220).
