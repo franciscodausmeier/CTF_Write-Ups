@@ -20,9 +20,9 @@ page to find out how to beat Level 1.
 #### ) Information given by the challenge:
 
 - _hostname_: " **bandit.labs.overthewire.org** ".
-- _port_: **"22**" (2220).
+- _port_: " **22** " (2220).
 - _user_: " **bandit0** ".
-- _password_: **"bandit0**".
+- _password_: " **bandit0** ".
 
 - - -
 
