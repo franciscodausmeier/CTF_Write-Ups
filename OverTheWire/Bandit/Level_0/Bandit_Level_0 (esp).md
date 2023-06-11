@@ -29,7 +29,6 @@ a la pagina del Nivel 1 para conseguir como poder resolver el Nivel 1.
 
 ### Procedimiento.
 
-
 1. Usar los detalles dados por el _challenge_ para usar el comando " **SSH** " para logear al servidor correspondiente a este
    del challenge, siguiendo la siguiente estructura para el comando:
 
@@ -43,9 +42,6 @@ a la pagina del Nivel 1 para conseguir como poder resolver el Nivel 1.
    ![captura1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/0ccbdd21-38c6-435a-b2e0-25b007c6d231)
 
    [Imagen](captura1) de demostración.
-
-   [Imagen](https://user-images.githubusercontent.com/71414554/244973917-0ccbdd21-38c6-435a-b2e0-25b007c6d231.png) de demostración.
-
 
 - - -
 
