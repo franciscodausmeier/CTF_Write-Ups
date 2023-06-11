@@ -1,5 +1,12 @@
+- - -
+
 # OverTheWire.
-## Reporte del challenge Bandit.
+
+imagen1, overthewire logo.
+
+- - -
+
+# Reporte del challenge Bandit (CTF Write-Up).
 ### Level 0.
 
 
