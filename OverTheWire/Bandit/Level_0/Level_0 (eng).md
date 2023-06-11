@@ -31,16 +31,17 @@ page to find out how to beat Level 1.
 1. Use the key details given by the description of the challenge to fill the " **SSH** " command
    to log into the corresponding server for the challenge, following the structure of the command:
 
-    ``` ssh user_name@host_name -p 2220 ```
+   ``` ssh user_name@host_name -p 2220 ```
 
    where the " **-p**" option, allows for us to clarify the port for the login.
+
+   ``` ssh bandit0@bandit.labs.overthewire.org -p 2220 ``` 
 
 2. After correctly entering the command, you are going to be asked to enter the password given to
    you for the challenge (bandit0), and that should be it.
 
    [imagen_de_login_completado]
  
- .  
 
 - - -
 
