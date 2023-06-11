@@ -39,14 +39,18 @@ a la pagina del Nivel 1 para conseguir como poder resolver el Nivel 1.
 
    ``` ssh bandit0@bandit.labs.overthewire.org -p 2220 ```
 
+<<<<<<< HEAD
    ![captura1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/0ccbdd21-38c6-435a-b2e0-25b007c6d231)
 
    [Imagen](captura1) de demostración.
+=======
+   [Imagen](https://user-images.githubusercontent.com/71414554/244973917-0ccbdd21-38c6-435a-b2e0-25b007c6d231.png) de demostración.
+>>>>>>> origin
 
 - - -
 
 2. Luego de haber ingresado de manera correcta el comando con cada una de sus partes, se te va a preguntar por la contraseña en cuestión
-   (" **bandit0** ") y eso debería ser lo que te permita ingresar dentro del nivel 0 de este _challenge_. Esta es la [imagen](captura2) de
+   (" **bandit0** ") y eso debería ser lo que te permita ingresar dentro del nivel 0 de este _challenge_. Esta es la [imagen]([captura2](https://user-images.githubusercontent.com/71414554/244973930-6f71eb9c-135d-49c2-adca-250e8517409f.png)) de
    demostración.
 
    ![captura2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/6f71eb9c-135d-49c2-adca-250e8517409f)
