@@ -39,12 +39,12 @@ page to find out how to beat Level 1.
 
    ``` ssh bandit0@bandit.labs.overthewire.org -p 2220 ``` 
 
-   demonstration [image]() about this step.
+   demonstration [image](/attachments/captura1.png) about this step.
 
 - - -
 
 2. After correctly entering the command, you are going to be asked to enter the password given to
-   you for the challenge (" bandit0 "), [and that should be it]().
+   you for the challenge (" bandit0 "), [and that should be it](/attachments/captura2.png).
 
 
    ![screenshoot1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/54930be3-99a4-4fd0-b27f-bb1feecd2324)
