@@ -39,12 +39,13 @@ page to find out how to beat Level 1.
 
    ``` ssh bandit0@bandit.labs.overthewire.org -p 2220 ``` 
 
-   demonstration [image](screenshot1) about this step.
+   demonstration [image](https://user-images.githubusercontent.com/71414554/244929496-54930be3-99a4-4fd0-b27f-bb1feecd2324.png) about this step.
 
 - - -
 
 2. After correctly entering the command, you are going to be asked to enter the password given to
-   you for the challenge (" bandit0 "), [and that should be it](screenshot2).
+   you for the challenge (" bandit0 "), 
+   [and that should be it](https://user-images.githubusercontent.com/71414554/244928379-c531b3ab-136b-4d7c-afd9-338ad99b2644.png).
 
 - - -
 
