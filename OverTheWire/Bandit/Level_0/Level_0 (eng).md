@@ -40,8 +40,12 @@ page to find out how to beat Level 1.
 2. After correctly entering the command, you are going to be asked to enter the password given to
    you for the challenge (bandit0), and that should be it.
 
+<<<<<<< HEAD
    [imagen_de_login_completado]
  
+=======
+   ![captura1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/c531b3ab-136b-4d7c-afd9-338ad99b2644)
+>>>>>>> refs/remotes/origin/main
 
 - - -
 
