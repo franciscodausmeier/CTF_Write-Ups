@@ -51,19 +51,4 @@ a la pagina del Nivel 1 para conseguir como poder resolver el Nivel 1.
 
    ![captura2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/6f71eb9c-135d-49c2-adca-250e8517409f)
 
-- - -
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
