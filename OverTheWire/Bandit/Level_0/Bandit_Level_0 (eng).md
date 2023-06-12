@@ -9,6 +9,7 @@
 
 ### Level 0 - Log with SSH.
 
+
 #### ) Description of the challenge:
 
 The goal of this level is for you to log into the game using SSH. 
@@ -30,6 +31,7 @@ page to find out how to beat Level 1.
 
 ### Procedure.
 
+
 1. Use the key details given by the description of the challenge to fill the " **SSH** " command
    to log into the corresponding server for the challenge, following the structure of the command:
 
@@ -44,14 +46,12 @@ page to find out how to beat Level 1.
 - - -
 
 2. After correctly entering the command, you are going to be asked to enter the password given to
-   you for the challenge (" bandit0 "), 
-   [and that should be it](https://user-images.githubusercontent.com/71414554/244928379-c531b3ab-136b-4d7c-afd9-338ad99b2644.png).
-
-- - -
+   you for the challenge (" bandit0 "), [and that should be it](https://user-images.githubusercontent.com/71414554/244928379-c531b3ab-136b-4d7c-afd9-338ad99b2644.png).
 
 - - -
 
 ### Attachments.
+
 
 ![screenshoot1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/54930be3-99a4-4fd0-b27f-bb1feecd2324)
 
