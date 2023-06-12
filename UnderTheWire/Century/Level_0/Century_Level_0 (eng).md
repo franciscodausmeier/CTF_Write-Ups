@@ -10,7 +10,7 @@
 ### Level 0 - Log with SSH.
 
 
-####) Description of the challenge:
+#### ) Description of the challenge:
 
 The goal of this level is to log into the game. Do the following in order to achieve this goal.
 1. Obtain the initial credentials via the #StartHere channel on our Slack (link). Once you are in the channel, 
@@ -21,7 +21,7 @@ The goal of this level is to log into the game. Do the following in order to ach
 4. You have successfully connected to the game server when your path changes to “PS C:\Users\Century1\desktop>”.
 
 
-####) Information given by the challenge:
+#### ) Information given by the challenge:
 
 - _host-name_: " **century.underthewire.tech** ".
 - _port_: " **22** " (2220).
