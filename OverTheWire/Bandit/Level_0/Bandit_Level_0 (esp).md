@@ -9,6 +9,7 @@
 
 ### Nivel 0 - Logear con SSH.
 
+
 #### ) Descripción del _challenge_: 
 
 El objetivo de este _challenge_ es el poder aprender a logear dentro de los niveles del _wargame_ mediante **SSH**.
@@ -42,7 +43,6 @@ a la pagina del Nivel 1 para conseguir como poder resolver el Nivel 1.
 
    [iamgen]() de demostración de este paso.
 
-- - -
 
 - - -
 
@@ -52,6 +52,9 @@ a la pagina del Nivel 1 para conseguir como poder resolver el Nivel 1.
    demostración de este último paso.
 
 - - -
+
+- - -
+
 
 ### Archivos adjunto.
 
