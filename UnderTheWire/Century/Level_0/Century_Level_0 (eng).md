@@ -18,7 +18,7 @@ The goal of this level is to log into the game. Do the following in order to ach
 2. After obtaining the credentials, connect to the server via SSH. You will need an SSH client such as Putty. 
    The host that you will be connecting to is century.underthewire.tech, on port 22.
 3. When prompted, use the credentials for the applicable game found in the #StartHere Slack channel.
-4. You have successfully connected to the game server when your path changes to “PS C:\Users\Century1\desktop>”.
+4. You have successfully connected to the game server when your path changes to ``` PS C:\Users\Century1\desktop> ```.
 
 
 #### ) Information given by the challenge:
@@ -51,7 +51,7 @@ The goal of this level is to log into the game. Do the following in order to ach
 - - - 
 
 3. And that should be it. Once you enter the correct credentials and it lets you in the server, you should see yourself in
-   the directory " **PS C:\Users\Century1\desktop>** ", that is how you know you entered effectively to the Level 1.
+   the directory " **_PS C:\Users\Century1\desktop>_** ", that is how you know you entered effectively to the Level 1.
 
    [Last step](https://user-images.githubusercontent.com/71414554/244987901-4138cd4d-8b5b-4299-af0e-70cd04db57f1.png) of the process.
 
