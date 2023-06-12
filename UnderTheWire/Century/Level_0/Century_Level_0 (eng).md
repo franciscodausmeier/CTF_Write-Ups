@@ -51,7 +51,7 @@ The goal of this level is to log into the game. Do the following in order to ach
 - - - 
 
 3. And that should be it. Once you enter the correct credentials and it lets you in the server, you should see yourself in
-   the directory " **_PS C:\Users\Century1\desktop>_** ", that is how you know you entered effectively to the Level 1.
+   the directory ```PS C:\Users\Century1\desktop> ```, that is how you know you entered effectively to the Level 1.
 
    [Last step](https://user-images.githubusercontent.com/71414554/244987901-4138cd4d-8b5b-4299-af0e-70cd04db57f1.png) of the process.
 
