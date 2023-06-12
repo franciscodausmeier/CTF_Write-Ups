@@ -38,7 +38,7 @@ The goal of this level is to log into the game. Do the following in order to ach
 1. Using the details given by the challenge, in this case, the _host-name_ and the _port_, to log effectively to the
    server of the challenge. In my case, I am going to be doing it with [PuTTY](https://www.putty.org/) as a SSH client.
 
-   ![screenshot1]()
+   Look at [
 
 - - -
 
@@ -60,10 +60,11 @@ The goal of this level is to log into the game. Do the following in order to ach
 ### Attachments.
 
 
-![screenshot1]()
+![captura1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/2d552630-a873-4a11-a9b0-a19789eb556e)
 
-![screenshot2]()
+![captura2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/0f2778ce-f323-4d24-aec9-d0162d186e65)
 
-![screenshot3]()
+![captura3](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/4138cd4d-8b5b-4299-af0e-70cd04db57f1)
+
 
 
