@@ -38,7 +38,7 @@ The goal of this level is to log into the game. Do the following in order to ach
 1. Using the details given by the challenge, in this case, the _host-name_ and the _port_, to log effectively to the
    server of the challenge. In my case, I am going to be doing it with [PuTTY](https://www.putty.org/) as a SSH client.
 
-   Look at [
+   Look at the [first image attached](https://user-images.githubusercontent.com/71414554/244987878-2d552630-a873-4a11-a9b0-a19789eb556e.png) for this step.
 
 - - -
 
@@ -46,14 +46,14 @@ The goal of this level is to log into the game. Do the following in order to ach
    going to get open and is going to ask you for a _user-name_ and _password_ that they are giving for this level on their 
    Slack channel ( " **century** " for _user-name_ and _password_ too).
 
-   ![screenshot2]()
+   [Proof of this step](https://user-images.githubusercontent.com/71414554/244987890-0f2778ce-f323-4d24-aec9-d0162d186e65.png).
 
 - - - 
 
 3. And that should be it. Once you enter the correct credentials and it lets you in the server, you should see yourself in
    the directory " **PS C:\Users\Century1\desktop>** ", that is how you know you entered effectively to the Level 1.
 
-   ![screenshot3]()
+   [Last step](https://user-images.githubusercontent.com/71414554/244987901-4138cd4d-8b5b-4299-af0e-70cd04db57f1.png) of the process.
 
 - - -
 
@@ -65,6 +65,5 @@ The goal of this level is to log into the game. Do the following in order to ach
 ![captura2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/0f2778ce-f323-4d24-aec9-d0162d186e65)
 
 ![captura3](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/4138cd4d-8b5b-4299-af0e-70cd04db57f1)
-
 
 
