@@ -66,4 +66,3 @@ The goal of this level is to log into the game. Do the following in order to ach
 
 ![screenshot3](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/4138cd4d-8b5b-4299-af0e-70cd04db57f1)
 
-
