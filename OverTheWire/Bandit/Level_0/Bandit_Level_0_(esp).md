@@ -28,7 +28,8 @@ ___
 			- Donde la opción " **-p** " para el comando, nos permite clarificar el puerto correspondiente para lograr ingresar al servidor.
 		- **1.b.** `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 			- ![screenshot_step1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/54930be3-99a4-4fd0-b27f-bb1feecd2324)
-	- **2.**  2. Luego de haber ingresado de manera correcta el comando con cada una de sus partes, se te va a preguntar por la contraseña en cuestión (" **bandit0** ") y eso debería ser lo que te permita ingresar dentro del nivel 0 de este _challenge_. Esta es la [imagen](https://user-images.githubusercontent.com/71414554/244973930-6f71eb9c-135d-49c2-adca-250e8517409f.png) de demostración de este último paso.
+  
+	- **2.**  Luego de haber ingresado de manera correcta el comando con cada una de sus partes, se te va a preguntar por la contraseña en cuestión (" **bandit0** ") y eso debería ser lo que te permita ingresar dentro del nivel 0 de este _challenge_. Esta es la [imagen](https://user-images.githubusercontent.com/71414554/244973930-6f71eb9c-135d-49c2-adca-250e8517409f.png) de demostración de este último paso.
 		-  ![screenshot_step2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/c531b3ab-136b-4d7c-afd9-338ad99b2644)
 
 <br>
