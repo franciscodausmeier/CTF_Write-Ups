@@ -5,12 +5,6 @@ ___
 
 ## [Bandit, level 0](specific.challenge.url) CTF Write-up. [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(esp).md)
 
-<br>
-
-___
-
-<br>
-
 - ### Level 0 - [name.of.the.challenge] Log with SSH.
 	- #### ) Description of the challenge:
 		- [_description.of.the.challenge_]
