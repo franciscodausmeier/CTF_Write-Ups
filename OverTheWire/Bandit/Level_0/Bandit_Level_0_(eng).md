@@ -8,7 +8,7 @@
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(eng).md)
 
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_(esp).md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(esp).md)
 
 ------------------------------------------------------------------------
 
