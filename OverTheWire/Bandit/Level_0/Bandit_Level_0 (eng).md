@@ -6,6 +6,9 @@
 ## [Bandit, level 0](https://overthewire.org/wargames/bandit/bandit0.html) CTF Write-up. 
 
 - - -
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/frandausmeier/CTF_Write-Ups/OverTheWire/Bandit/Level_0/blob/master/Bandit_Level_0 (eng).md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/OverTheWire/Bandit/Level_0/blob/master/Bandit_Level_0 (esp).md)
+- - -
 
 ### Level 0 - Log with SSH.
 
