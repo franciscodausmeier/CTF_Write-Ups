@@ -5,6 +5,10 @@
 
 ## Reporte/informe (Write-up) para CTF [Bandit, nivel 0](https://overthewire.org/wargames/bandit/bandit0.html).
 
+- - -
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(eng).md)
+
 - - - 
 
 ### Nivel 0 - Logear con SSH.
