@@ -1,14 +1,14 @@
 ___
 
-# [OverTheWire.](sitio.url)
+# [OverTheWire.](https://overthewire.org/wargames/bandit/)
 
 ## Reporte/informe (Write-up) para CTF [Bandit, nivel 0](https://overthewire.org/wargames/bandit/bandit0.html). [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(eng).md)
 
 <br>
 
-- ### Nivel 0 - [nombre.del.challenge] Logearse con SSH.
+- ### Nivel 0 - Logearse con SSH.
 	- #### ) Descripción del _challenge_:
-		- [_descripción.del.challenge_]
+		- El objetivo de este nivel es conseguir logearse usando **SSH**. El _host_ al cual necesitás conectarte es bandit.labs.overthewire.org, en puerto 22 (2220). El _username_ es _bandit0_ y la contraseña también es _bandit0_. Una vez logeado, andá a la pagina del nivel 1 para pasar al siguiente nivel. 
 	- #### ) Información que el _challenge_ otorga:
 		-   *hostname*: \" **bandit.labs.overthewire.org** \".
 		-   *port*: \" **22** \" (2220).
