@@ -3,10 +3,10 @@
 [OverTheWire.](https://overthewire.org/wargames/)
 =================================================
 
-[Bandit, level 0](https://overthewire.org/wargames/bandit/bandit0.html) CTF Write-up.
+[Bandit, level 0](https://overthewire.org/wargames/bandit/bandit0.html) CTF Write-up. [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(esp).md)
 -------------------------------------------------------------------------------------
 
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/OverTheWire/Bandit/Level_0/Bandit_Level_0_(esp).md)
+
 
 ------------------------------------------------------------------------
 
