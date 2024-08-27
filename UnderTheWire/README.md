@@ -1,4 +1,4 @@
-# [UnderTheWire].(https://underthewire.tech/)
+# [UnderTheWire](https://underthewire.tech/).
 
 > Daus Meier, Francisco | August 28th, 2024
 
@@ -10,27 +10,27 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-* 1. [Century.](century)
+1. [Century.](century)
 
 <br>
 
-* 2. ~~Cyborg~~.
+* ~~Cyborg~~.
 
 <br>
 
-* 3. ~~Groot~~.
+* ~~Groot~~.
 
 <br>
 
-* 4. ~~Oracle~~.
+* ~~Oracle~~.
 
 <br>
 
-* 5. ~~Trebek~~.
+* ~~Trebek~~.
 
 <br>
 
-* 6. ~~Xandar~~.
+* ~~Xandar~~.
 
 <br>
 
