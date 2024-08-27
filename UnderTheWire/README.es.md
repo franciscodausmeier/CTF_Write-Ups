@@ -1,5 +1,4 @@
-  GNU nano 6.2                                                                    README.md                                                                             
-# [UnderTheWire](https://underthewire.tech/) [![en](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/UnderTheWire/blob/master/README.md>
+# [UnderTheWire](https://underthewire.tech/) [![en](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/UnderTheWire/blob/master/README.md>)
 
 > Daus Meier, Francisco | 27 de Agosto, 2024
 
