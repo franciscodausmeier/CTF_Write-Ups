@@ -6,6 +6,10 @@
 
 These are the write-ups, reports and additional notes I've compiled in the realisation of the UnderTheWire war games.
 
+<p align=center>
+	<span> English </span> |
+	<a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish <a/>
+</p>
 
 -----
 
