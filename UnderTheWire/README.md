@@ -4,30 +4,33 @@
 
 -----
 
-These are the write-ups, reports and additional notes I've compiled in the <br>
-realisation of the UnderTheWire war games.
+These are the write-ups, reports and additional notes I've compiled in the realisation of the UnderTheWire war games.
 
-* [Century](century)
-
-<br>
-
-* [Cyborg]()
+-----
 
 <br>
 
-* [Groot]()
+* [Century.](century)
 
 <br>
 
-* [Oracle]()
+* [~~Cyborg.~~]()
 
 <br>
 
-* [Trebek]()
+* [~~Groot.~~]()
 
 <br>
 
-* [Xandar]()
+* [~~Oracle.~~]()
+
+<br>
+
+* [~~Trebek.~~]()
+
+<br>
+
+* [~~Xandar.~~]()
 
 <br>
 
