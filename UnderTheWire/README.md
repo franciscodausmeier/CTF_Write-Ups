@@ -1,8 +1,8 @@
-# [UnderTheWire](https://underthewire.tech/) [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/UnderTheWire/README.es.md)
+# [UnderTheWire](https://underthewire.tech/)
 
 > Daus Meier, Francisco | August 28th, 2024
 
-> <p> <span> English </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish <a/> </p>
+> <p> <span> English </span> | [![es](https://img.shields.io/badge/lang-es-yellow.svg)] <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish <a/> </p>
 
 -----
 
