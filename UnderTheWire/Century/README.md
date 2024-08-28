@@ -1,7 +1,3 @@
----
-text-decoration:none
----
-
 # [Century](https://underthewire.tech/century) | [UnderTheWire](https://underthewire.tech/)
 
 <br>
@@ -10,12 +6,15 @@ text-decoration:none
 
 <br>
 
-- Level 1 | Nivel 1.
+- ~~Level 1~~ | ~~Nivel 1~~.
 
 <br>
 
-- Level 2 | Nivel 2.
+- ~~Level 2~~ | ~~Nivel 2~~.
 
 <br>
 
+- ~~Level 3~~ | ~~Nivel 3~~.
+
+<br>
 -----
