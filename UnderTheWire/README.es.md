@@ -12,7 +12,7 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 
 <br>
 
-1. [Century.](century)
+* [Century.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
 
 <br>
 
