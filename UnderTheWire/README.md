@@ -12,7 +12,7 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-1. [Century.](century)
+* [1. Century.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
 
 <br>
 
