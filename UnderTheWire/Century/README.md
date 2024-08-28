@@ -4,7 +4,7 @@
 
 <br>
 
-- [Level 0](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/Century_Level_0%20(eng).md) | [Nivel 0](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/Century_Level_0%20(esp).md).
+- [Level 0 (eng)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/Century_Level_0%20(eng).md) | [Nivel 0 (esp)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/Century_Level_0%20(esp).md).
 
 <br>
 
