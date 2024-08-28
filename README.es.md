@@ -1,13 +1,22 @@
-# Colección de mis reportes / informes de CTFs. [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/frandausmeier/CTF_Write-Ups/blob/master/README.md)
+# Reportes de CTF
+
+> <p> <span> Español </span> | <a href=> Inglés <a/> </p>
+
+-----
 
 <br>
 
-Por ahora...
+- [OverTheWire](https://overthewire.org/wargames/).
 
 <br>
 
-[OverTheWire](https://overthewire.org/wargames/) | [UnderTheWire](https://underthewire.tech/) | [PicoCTF](https://picoctf.org/)
+- [UnderTheWire](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md).
 
 <br>
 
+- [PicoCTF](https://picoctf.org/).
+
+<br>
+
+-----
 
