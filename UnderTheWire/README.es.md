@@ -12,23 +12,27 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 
 <br>
 
-* [Century.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
+* [Century [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
 
 <br>
 
-* ~~Cyborg~~.
+* ~~Cyborg [2]~~.
 
 <br>
 
-* ~~Groot~~.
+* ~~Groot [3]~~.
 
 <br>
 
-* ~~Oracle~~.
+* ~~Oracle [4]~~.
 
 <br>
 
-* ~~Trebek~~.
+* ~~Trebek [5]~~.
+
+<br>
+
+* ~~Xandar [offline]~~.
 
 <br>
 
