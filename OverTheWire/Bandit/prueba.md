@@ -11,11 +11,10 @@
 <br>
 
 - ## Challenge description.
-	> .
-	> .
-	> .
-	> .
-	> .
+	> hola.
+	> como
+	> te
+	> va?
 
 <br>
 
