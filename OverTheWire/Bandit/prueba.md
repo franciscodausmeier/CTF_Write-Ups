@@ -1,11 +1,5 @@
 - # [name.CTF.level](url) | [...]() | [...]()
 
-<br>
-
------
-
-<br>
-
 > English | [Spanish](url) 
 
 <br>
