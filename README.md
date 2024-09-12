@@ -1,9 +1,5 @@
 <div align="center"> <img src="./resources/images/ctf_write-ups_banners/ctf_write-up_banner_ENG.jpg"> </div>
 
-<br>
-
-# CTF Write ups
-
 > <p> <span> English </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/README.es.md> Spanish <a/> </p>
 
 -----
