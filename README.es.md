@@ -1,4 +1,5 @@
-![Header](./[resources/images/ctf_write-ups_banners/ctf_write-up_banner_ESP.jpg])
+<div align="center"> <img src="./resources/images/ctf_write-ups_banners/ctf_write-up_banner_ESP.jpg"> </div>
+
 
 <br>
 
