@@ -1,4 +1,4 @@
-<div align="center"> ![CTF Write-Ups (ENG), README md banner](./resources/images/ctf_write-ups_banners/CTF Write-Ups (ENG), README.md banner.jpg) </div>
+<div align="center"> ![CTF Write-Ups (ENG), README md banner](./resources/images/ctf_write-ups_banners/ctf_write-up_banner_ENG.jpg) </div>
 
 <br>
 
