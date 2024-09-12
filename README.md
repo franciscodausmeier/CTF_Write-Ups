@@ -1,4 +1,4 @@
-<div align="center"> <img src="![CTF Write-Ups (ENG), README md banner](https://github.com/user-attachments/assets/9611fab8-974a-4ee9-894b-016c1802b965)"> </div>
+<div align="center"> ![CTF Write-Ups (ENG), README md banner](https://github.com/user-attachments/assets/c0ee535d-4745-4b83-8d72-095585bc840a) </div>
 
 <br>
 
