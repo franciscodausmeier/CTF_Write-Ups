@@ -1,4 +1,6 @@
-# Reportes de CTF
+![Header](./[resources/images/ctf_write-ups_banners/ctf_write-up_banner_ESP.jpg])
+
+<br>
 
 > <p> <span> Español </span> | <a href=> Inglés <a/> </p>
 
