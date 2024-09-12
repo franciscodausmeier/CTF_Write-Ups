@@ -1,4 +1,4 @@
-<div align="center"> ![CTF Write-Ups (ENG), README md banner](https://github.com/user-attachments/assets/c0ee535d-4745-4b83-8d72-095585bc840a) </div>
+<div align="center"> ![CTF Write-Ups (ENG), README md banner](./resources/images/ctf_write-ups_banners/CTF Write-Ups (ENG), README.md banner.jpg) </div>
 
 <br>
 
