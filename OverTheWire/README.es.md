@@ -1,4 +1,6 @@
-# [OverTheWire](https://overthewire.org/wargames/)
+<div align="center"> <img src="./resources/images/CTF Write-Ups/OverTheWire_banner/overthewire_main_banner.jpg"> </div>
+
+<br>
 
 > Daus Meier, Francisco | 29 de Agosto, 2024
 
@@ -25,3 +27,4 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 <br>
 
 -----
+
