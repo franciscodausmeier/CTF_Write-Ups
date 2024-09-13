@@ -2,13 +2,13 @@
 
 <br>
 
-> <p> <span> English </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/README.es.md> Spanish <a/> </p>
+> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/README.es.md> Spanish <a/> </p>
 
 -----
 
 <br>
 
-- [OverTheWire](https://overthewire.org/wargames/).
+- [OverTheWire](./OverTheWire/README.md).
 
 <br>
 
