@@ -18,12 +18,4 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-* ~~[Natas [2]]~~.
-
-<br>
-
-* ...
-
-<br>
-
 -----
