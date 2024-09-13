@@ -1,4 +1,6 @@
-# [UnderTheWire](https://underthewire.tech/)
+<div align="center"> <img src="../resources/images/ctf_write-ups/UnderTheWire_banner/underthewire_main_banner.jpg"> </div>
+
+<br>
 
 > Daus Meier, Francisco | August 28th, 2024
 
