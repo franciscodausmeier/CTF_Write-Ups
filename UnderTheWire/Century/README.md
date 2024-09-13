@@ -1,4 +1,4 @@
-# [Century](https://underthewire.tech/century) | [UnderTheWire](https://underthewire.tech/)
+# [Century](https://underthewire.tech/century) | [UnderTheWire](../README.md)
 
 <br>
 
