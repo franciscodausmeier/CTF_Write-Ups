@@ -12,7 +12,7 @@
 
 <br>
 
-- [UnderTheWire](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.md).
+- [UnderTheWire](./UnderTheWire/README.md).
 
 <br>
 
