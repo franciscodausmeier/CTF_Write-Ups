@@ -4,7 +4,7 @@
 
 > Daus Meier, Francisco | 29 de Agosto, 2024
 
-> <p> <span> Español </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire> Inglés <a/> </p>
+> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire> Inglés <a/> </p>
 
 -----
 
