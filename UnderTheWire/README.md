@@ -4,7 +4,7 @@
 
 > Daus Meier, Francisco | August 28th, 2024
 
-> <p> <span> English </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish <a/> </p>
+> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish <a/> </p>
 
 -----
 
