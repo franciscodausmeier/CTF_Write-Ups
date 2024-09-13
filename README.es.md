@@ -3,13 +3,13 @@
 
 <br>
 
-> <p> <span> Español </span> | <a href=> Inglés <a/> </p>
+> <p> <span> Español - ESP </span> | <a href=> Inglés <a/> </p>
 
 -----
 
 <br>
 
-- [OverTheWire](https://overthewire.org/wargames/).
+- [OverTheWire](./OverTheWire/README.es.md).
 
 <br>
 
