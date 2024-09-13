@@ -1,4 +1,4 @@
-# [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](../CTF_Write-Ups)
+# [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](../README.md)
 
 <br>
 
