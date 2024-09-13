@@ -1,4 +1,4 @@
-<div align="center"> <img src="../resources/images/CTF_Write-Ups/OverTheWire_banner/overthewire_main_banner.jpg"> </div>
+<div align="center"> <img src="../resources/images/ctf_write-ups/OverTheWire_banner/overthewire_main_banner.jpg"> </div>
 
 <br>
 
