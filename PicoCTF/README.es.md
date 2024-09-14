@@ -1,4 +1,4 @@
-<div align="center"> <img src="../resources/images/ctf_write-ups/PicoCTF_banner/PicoCTF_main_banner"> </div>
+<div align="center"> <img src="../resources/images/ctf_write-ups/PicoCTF_banner/PicoCTF_main_banner.png"> </div>
 
 <br>
 
