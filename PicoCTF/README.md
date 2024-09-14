@@ -8,7 +8,7 @@
 
 -----
 
-~~Descripción.~~
+These are the write-ups, reports and additional notes I've compiled in the realisation of the incibe.es beginner war games.
 
 -----
 

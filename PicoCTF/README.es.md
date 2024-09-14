@@ -8,7 +8,7 @@
 
 -----
 
-~~Descripción.~~
+Estos son los write-ups, reportes y algunas notas adicionales que guardé de la realización de los wargames de incibe.es.
 
 -----
 
