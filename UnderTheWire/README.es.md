@@ -2,8 +2,6 @@
 
 <br>
 
-> Daus Meier, Francisco | 27 de Agosto, 2024
-
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.md> Inglés </a> </p>
 
 -----
