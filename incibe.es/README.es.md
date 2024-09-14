@@ -2,8 +2,6 @@
 
 <br>
 
-> Daus Meier, Francisco | 29 de Agosto, 2024
-
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/incibe.es/README.md> Inglés <a/> </p>
 
 -----
