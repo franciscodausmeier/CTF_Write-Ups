@@ -58,6 +58,9 @@ logged in, go to the Level 1 page to find out how to beat Level 1.
 
 ### Attachments.
 
-![screenshoot1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/54930be3-99a4-4fd0-b27f-bb1feecd2324)
+![level-0_bandit_overthewire_eng](https://github.com/user-attachments/assets/9e165bea-76de-4b67-9d29-f6e80e85cda6)
 
-![screenshot2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/c531b3ab-136b-4d7c-afd9-338ad99b2644)
+<br>
+
+![nivel-0_bandit_overthewire_esp](https://github.com/user-attachments/assets/0494c0cd-5835-497f-aca7-ebeaabab87d7)
+
