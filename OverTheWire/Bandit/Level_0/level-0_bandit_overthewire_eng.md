@@ -47,7 +47,7 @@
 
 <br>
 
-[imagen]
+![level-0_bandit_overthewire](https://github.com/user-attachments/assets/979dafac-0e2d-4146-9255-8a69359daa83)
 
 <br>
 

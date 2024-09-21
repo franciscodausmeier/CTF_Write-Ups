@@ -52,9 +52,8 @@
 
 <br>
 
-[imagen]
+![level-0_bandit_overthewire](https://github.com/user-attachments/assets/7abd477f-861a-4777-a0fe-abe35f5d0bff)
 
 <br>
 
 -----
-
