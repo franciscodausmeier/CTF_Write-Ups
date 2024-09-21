@@ -1,7 +1,7 @@
 
 # [Nivel 0](https://overthewire.org/wargames/bandit/bandit0.html) | [Bandit](https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire/Bandit) | [OverTheWire](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/README.es.md)
 
-> Español | [Inglés](url) 
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_eng.md) 
 
 > [PDF version](url)
 
