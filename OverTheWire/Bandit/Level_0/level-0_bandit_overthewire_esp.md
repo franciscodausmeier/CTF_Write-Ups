@@ -3,7 +3,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_eng.md) 
 
-> [PDF version](url)
+> [PDF version](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_esp.pdf)
 
 -----
 
