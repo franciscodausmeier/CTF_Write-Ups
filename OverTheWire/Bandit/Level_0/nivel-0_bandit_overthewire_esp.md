@@ -16,9 +16,9 @@
 
 - ## Información dada por el _challenge_.
 	- _hostname_: " bandit.labs.overthewire.org ".
-	- _port_: " 22 " (2220).
-	- _user_: " bandit0 ".
-	- _password_: " bandit0 ".
+	- _puerto_: " 22 " (2220).
+	- _usuario_: " bandit0 ".
+	- _contraseña__: " bandit0 ".
 
 <br>
 
