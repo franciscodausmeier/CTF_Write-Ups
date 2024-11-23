@@ -36,7 +36,11 @@
 		ssh user_name@host_name -p 2220
 ```
 
+<br>
+
    	where the "**-p**" option, allows for us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. 
+
+<br>
 			
 ```
 		ssh bandit0@bandit.labs.overthewire.org -p 2220
