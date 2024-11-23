@@ -27,15 +27,15 @@
 <br>
 
 - ## Procedure.
-1) Use the key details given by the description of the challenge to fill the " SSH " command to log into the corresponding server for the challenge, following the structure of the SSH command:
+	- 1) Use the key details given by the description of the challenge to fill the " SSH " command to log into the corresponding server for the challenge, following the structure of the SSH command:
     
-	- ``` ssh user_name@host_name -p 2220 ```
+		- ``` ssh user_name@host_name -p 2220 ```
 
-   where the "**-p**" option, allows for us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. 
+   	where the "**-p**" option, allows for us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. 
   
-	- ``` ssh bandit0@bandit.labs.overthewire.org -p 2220 ```
+		- ``` ssh bandit0@bandit.labs.overthewire.org -p 2220 ```
 
-2) After correctly executing the command, you are going to be asked to enter the credentials given to you for the challenge to log into Level 1, being this the user "**bandit0**", and the password "**bandit0**", and that should be it.
+	- 2) After correctly executing the command, you are going to be asked to enter the credentials given to you for the challenge to log into Level 1, being this the user "**bandit0**", and the password "**bandit0**", and that should be it.
 
 <br>
 
