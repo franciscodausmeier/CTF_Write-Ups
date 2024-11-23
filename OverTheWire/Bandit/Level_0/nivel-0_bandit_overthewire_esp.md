@@ -18,7 +18,7 @@
 	- _hostname_: " bandit.labs.overthewire.org ".
 	- _puerto_: " 22 " (2220).
 	- _usuario_: " bandit0 ".
-	- _contraseña__: " bandit0 ".
+	- _contraseña_: " bandit0 ".
 
 <br>
 
