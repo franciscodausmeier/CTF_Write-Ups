@@ -35,7 +35,7 @@
 <br>
 
 ```
-				ssh user@host_name -p 2220
+					ssh user@host_name -p 2220
 ```
 
 <br>

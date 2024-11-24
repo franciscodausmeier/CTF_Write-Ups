@@ -35,7 +35,7 @@
 <br>
 
 ```
-				ssh user_name@host_name -p 2220
+					ssh user_name@host_name -p 2220
 ```
 
 <br>
@@ -45,7 +45,7 @@
 <br>
 			
 ```
-		ssh bandit0@bandit.labs.overthewire.org -p 2220
+				ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
 <br>
