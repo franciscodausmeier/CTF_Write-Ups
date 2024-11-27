@@ -6,7 +6,7 @@
 
 <br>
 
-- [Level 1 (ENG](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/Bandit_Level_1_(eng).md) | [Nivel 1 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/Bandit_Level_1_(esp).md).
+- [Level 1 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/level-1_bandit_overthewire_eng.md) | [Nivel 1 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/nivel-1_bandit_overthewire_esp.md).
 
 <br>
 
