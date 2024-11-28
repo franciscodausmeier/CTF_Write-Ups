@@ -10,11 +10,19 @@
 
 <br>
 
-- ~~Level 2~~ | ~~Nivel 2~~.
+- [Level 2 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_eng.md) | [Nivel 2 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_esp.md).
 
 <br>
 
-- ~~Level 3~~ | ~~Nivel 3~~.
+- [Level 3 (ENG)]() | [Nivel 3 (ESP)]().
+
+<br>
+
+- [Level 4 (ENG)]() | [Nivel 4 (ESP)]().
+
+<br>
+
+- [Level 5 (ENG)]() | [Nivel 5 (ESP)]().
 
 <br>
 
