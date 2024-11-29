@@ -12,11 +12,17 @@
 ## Descripción del _challenge_.
 > Bandido Nivel 1 - Nivel 2.
 
+<br>
+
 > Objetivo de nivel.
 - > La contraseña para el siguiente nivel se almacena en un archivo llamado **-** ubicado en el directorio de la casa.
 
+<br>
+
 > Comandos que puede necesitar para resolver este nivel.
 - > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html), [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html), [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
+
+<br>
 
 > Material de lectura útil.
 - > [Búsqueda de nombre de archivo de la venta.](https://www.google.com/search?q=dashed+filename)
