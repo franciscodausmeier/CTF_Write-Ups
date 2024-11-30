@@ -95,6 +95,12 @@
 
 <br>
 
+```bash
+	bandit2@bandit:~$ cat "spaces in this filename"
+```
+
+<br>
+
 - Cualquiera de estas 2 opciones funcionan para leer correctamente los espacios del nombre del archivo en el contexto del comando **cat**. Y así es como obtenemos el contenido del archivo impreso en pantalla y la contraseña del siguiente nivel.
 
 <br>
