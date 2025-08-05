@@ -55,7 +55,7 @@
 
 <br>
 
-* where the "**-p**" option, allows for us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. 
+* where the "**-p**" option, allows us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. 
 
 <br>
 			
