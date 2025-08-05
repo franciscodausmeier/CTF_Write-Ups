@@ -3,24 +3,39 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/nivel-0_bandit_overthewire_esp.md) 
 
-> [PDF version](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_end.pdf)
+> [PDF version](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_end.pdf).
 
 -----
 
 <br>
 
-- ## Challenge description.
-	> The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
+## Challenge description.
+
+> "The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1".
 
 <br>
 
-- ## Information given by the challenge.
-	- _hostname_: " bandit.labs.overthewire.org ".
-	- _port_: " 22 " (2220).
-	- _user_: " bandit0 ".
-	- _password_: " bandit0 ".
+## Information given by the challenge.
+
+- **_hostname_**: " bandit.labs.overthewire.org ".
+- **_port_**: " 22 " (2220).
+- **_user_**: " bandit0 ".
+- **_password_**: " bandit0 ".
 
 <br>
+
+> Commands you may need to solve this level.
+- [ssh](https://manpages.ubuntu.com/manpages/noble/man1/ssh.1.html).
+
+<br>
+
+> Helpful reading material.
+- [Secure Shell (SSH) on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell).
+- [How to use SSH on wikiHow](https://www.wikihow.com/Use-SSH).
+
+
+<br>
+
 
 -----
 
