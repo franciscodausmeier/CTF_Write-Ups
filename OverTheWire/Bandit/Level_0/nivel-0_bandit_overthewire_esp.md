@@ -46,17 +46,22 @@
 
 <br>
 
+```shell
+	bandit0@bandit:~$ ssh usuario@host_name -p puerto 
 ```
-	bandit0@bandit:~$ ssh user@host_name -p 2220
-```
+
+o
+
+```shell
+    bandit0@bandit:~$ ssh host_name -l usuario -p puerto
 
 <br>
 
-* donde la opción "**-p**", nos permite especificar el puerto para la conección del login, y el numero "**2220**", que indica el puerto de default (22) en la implementación del procolo de red SSH:
+* donde la opción "**-p**", nos permite especificar el puerto para la conección del login, y el numero "**2220**", que indica el puerto de default (22) en la implementación del procolo de red SSH. El segundo ejemplo nos muestra como también podemos usar la opción "**-l**" para poder especificar el nombre de usuario sin la necesidad de usar la notación _usuario@host_name_.
 
 <br>
 
-``` 
+```shell
 	bandit0@bandit:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220 
 ```
 
