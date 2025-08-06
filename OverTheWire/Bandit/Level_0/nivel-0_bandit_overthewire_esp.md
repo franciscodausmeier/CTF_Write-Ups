@@ -54,6 +54,7 @@ o
 
 ```shell
     bandit0@bandit:~$ ssh host_name -l usuario -p puerto
+```
 
 <br>
 
