@@ -49,17 +49,23 @@
 			
 <br>
 
+```shell
+	bandit0@bandit:~$ ssh user_name@host_name -p port_number
 ```
-	bandit0@bandit:~$ ssh user_name@host_name -p 2220
+
+or
+
+```shell
+    bandit0@bandit:~$ ssh host_name -l user_name -p port_number
 ```
 
 <br>
 
-* where the "**-p**" option, allows us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. 
+* where the "**-p**" option, allows us to specify the port for the login, and the number "**2220**" that indicates the default port (22) in the implementation of the SSH network protocol. The second example shows how we can use the option "**-l**" to specify the user name without having to use the _user_name@host_name_ notation.
 
 <br>
 			
-```
+```shell
 	bandit0@bandit:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
