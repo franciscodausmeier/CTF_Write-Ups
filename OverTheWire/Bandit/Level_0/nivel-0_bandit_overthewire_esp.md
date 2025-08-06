@@ -6,19 +6,31 @@
 > [versión en PDF](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/nivel-0_bandit_overthewire_esp.pdf)
 
 -----
+<br>
+
+## Descripción del _challenge_.
+
+- > "El objetivo de este nivel es que logres logearte al juego usando SSH. El host al cual necesitás conectarte es **bandit.labs.overthewire.org**, en el puerto **2220**. El nombre de usuario a usar es **bandit0** y la contraseña **bandit0**. Una vez logeado, ir a la pagina del [Nivel 1](https://overthewire.org/wargames/bandit/bandit1.html) para ver como resolver el siguiente nivel".
 
 <br>
 
-- ## Descripción del _challenge_.
-	> El objetivo de este nivel es el conseguir logear al juego usando SSH. El _host_ al cual necesitás conectarte es bandit.labs.overthewire.org, en su puerto 2220 (22). Las credenciales para poder conseguir ingresar al nivel 1 serían "bandit0" tanto en el caso de usuario como en el de la contreña. Una vez correctamente logeado, ir al archivo principal del Nivel 1 para poder obtener las instrucciones sobre como pasar ese nivel.
+## Información dada por el _challenge_.
+
+- _hostname_: " bandit.labs.overthewire.org ".
+- _puerto_: " 22 " (2220).
+- _usuario_: " bandit2 ".
+- _contraseña_: " 263JGJPfgU6LtdEvgfWU1XP5yac29mFx ".
 
 <br>
 
-- ## Información dada por el _challenge_.
-	- _hostname_: " bandit.labs.overthewire.org ".
-	- _puerto_: " 22 " (2220).
-	- _usuario_: " bandit0 ".
-	- _contraseña_: " bandit0 ".
+> Comandos que puede necesitar para resolver este nivel.
+- [ssh](https://www.wikihow.com/Use-SSH).
+
+<br>
+
+> Material de lectura útil.
+- [Secure Shell (SSH) en Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell).
+- [Como usar SSH en wikiHow](https://www.wikihow.com/Use-SSH).
 
 <br>
 
