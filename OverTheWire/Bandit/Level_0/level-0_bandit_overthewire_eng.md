@@ -41,7 +41,7 @@
 
 <br>
 
-- ## Procedure.
+## Procedure.
 
 <br>
 
@@ -73,7 +73,7 @@
 
 <br>
 
-- ## Demonstration.
+## Demonstration.
 
 <br>
 
