@@ -38,7 +38,7 @@
 
 <br>
 
-- ## Procedimiento.
+## Procedimiento.
 
 <br>
 
@@ -70,7 +70,7 @@
 
 <br>
 
-- ## Demostración.
+## Demostración.
 
 <br>
 
