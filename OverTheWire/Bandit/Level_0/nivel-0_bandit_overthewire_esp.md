@@ -10,7 +10,7 @@
 
 ## Descripción del _challenge_.
 
-- > "El objetivo de este nivel es que logres logearte al juego usando SSH. El host al cual necesitás conectarte es **bandit.labs.overthewire.org**, en el puerto **2220**. El nombre de usuario a usar es **bandit0** y la contraseña **bandit0**. Una vez logeado, ir a la pagina del [Nivel 1](https://overthewire.org/wargames/bandit/bandit1.html) para ver como resolver el siguiente nivel".
+> "El objetivo de este nivel es que logres logearte al juego usando SSH. El host al cual necesitás conectarte es **bandit.labs.overthewire.org**, en el puerto **2220**. El nombre de usuario a usar es **bandit0** y la contraseña **bandit0**. Una vez logeado, ir a la pagina del [Nivel 1](https://overthewire.org/wargames/bandit/bandit1.html) para ver como resolver el siguiente nivel".
 
 <br>
 
