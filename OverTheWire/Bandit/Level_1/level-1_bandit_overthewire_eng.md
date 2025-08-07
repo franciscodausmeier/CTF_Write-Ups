@@ -1,6 +1,6 @@
 
 # [Level 1](https://overthewire.org/wargames/bandit/bandit1.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
-> Level 0 -> Level 1.
+> Level 0 ``` &rarr ``` Level 1.
 
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/nivel-1_bandit_overthewire_esp.md)
