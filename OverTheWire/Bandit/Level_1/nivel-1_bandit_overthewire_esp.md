@@ -12,17 +12,8 @@
 <br>
 
 ## Descripción del _challenge_.
-> Bandido Nivel 0 - Nivel 1
 
-> Objetivo de nivel
 > La contraseña para el siguiente nivel se almacena en un archivo llamado **readme** ubicado en el directorio de la casa. Utilice esta contraseña para registrarse en bandido1 usando SSH. Cada vez que encuentras una contraseña para un nivel, utilizar SSH (en el puerto 2220) para iniciar sesión en ese nivel y continuar el juego.
-
-> Comandos que puede necesitar para resolver este nivel
-> [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
-
-> **SUGERENCIA:** Crea un archivo para notas y contraseñas en tu máquina local.
-> Las contraseñas para los niveles _no_ se guardan automáticamente. Si no los salvas tú mismo, tendrás que empezar de repasar desde bandido0.
-> Las contraseñas también cambian ocasionalmente. Se recomienda tomar notas sobre cómo resolver cada desafío. A medida que los niveles se ponen más difíciles, las notas detalladas son útiles para volver a donde lo dejó, hacer referencia para problemas posteriores o ayudar a otros después de completar el desafío.
 
 <br>
 
@@ -35,8 +26,18 @@
 
 <br>
 
-> Detalles nuevos dados por la descripción de este nivel.
-- _comandos potencialmente útiles_: " ls, cd, cat, file, du, find ".
+
+> Comandos que puede necesitar para resolver este nivel
+
+- > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html) , [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html) , [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html).
+
+<br>
+
+> **TIPs:** Crea un archivo para notas y contraseñas en tu máquina local.
+
+> Las contraseñas para los niveles _no_ se guardan automáticamente. Si no los salvas tú mismo, tendrás que empezar de repasar desde bandido0.
+
+> Las contraseñas también cambian ocasionalmente. Se recomienda tomar notas sobre cómo resolver cada desafío. A medida que los niveles se ponen más difíciles, las notas detalladas son útiles para volver a donde lo dejó, hacer referencia para problemas posteriores o ayudar a otros después de completar el desafío.
 
 <br>
 
