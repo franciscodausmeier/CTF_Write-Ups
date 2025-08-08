@@ -86,7 +86,7 @@ encontramos...
 <br>
 
 <p align="center">
-  <img src="./attachments/level-1_bandit_overthewire.md" />
+  <img src="./attachments/level-1_bandit_overthewire.gif" />
 </p>
 
 <br>
