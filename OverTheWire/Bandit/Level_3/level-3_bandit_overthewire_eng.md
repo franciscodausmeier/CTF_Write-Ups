@@ -114,7 +114,9 @@
 
 <br>
 
-![procedure image 1](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/attachments/procedure_bandit3.png?raw=true)
+<p align="center">
+  <img src="./attachments/level-3_bandit_overthewire.gif" />
+</p>
 
 <br>
 
