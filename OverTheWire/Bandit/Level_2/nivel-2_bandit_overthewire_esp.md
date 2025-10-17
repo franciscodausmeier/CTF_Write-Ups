@@ -1,36 +1,22 @@
 
-# [Nivel 2](https://overthewire.org/wargames/bandit/bandit2.html) | [Bandit](https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire/Bandit) | [OverTheWire](https://overthewire.org/wargames/)
+# [Nivel 2](https://overthewire.org/wargames/bandit/bandit2.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
+> Nivel 1 &rarr; Nivel 2.
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_eng.md) 
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_eng.md)
 
-> [Version en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/nivel-2_bandit_overthewire_esp.pdf)
+> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/nivel-2_bandit_overthewire_esp.pdf)
 
 -----
 
 <br>
 
-## Descripción del _challenge_.
-> Bandido Nivel 1 - Nivel 2.
+## Descripción del challenge.
+
+> La contraseña para el siguiente nivel se encuentra en un archivo llamado " - " que se encuentra en el directorio _home_.
 
 <br>
 
-> Objetivo de nivel.
-- > La contraseña para el siguiente nivel se almacena en un archivo llamado **-** ubicado en el directorio de la casa.
-
-<br>
-
-> Comandos que puede necesitar para resolver este nivel.
-- > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html), [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html), [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html) , [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html) , [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html) , [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
-
-<br>
-
-> Material de lectura útil.
-- > [Búsqueda de nombre de archivo de la venta.](https://www.google.com/search?q=dashed+filename)
-- > [Guía de Bash-scripting Avanzada - Capítulo 3 - Personajes especiales](https://linux.die.net/abs-guide/special-chars.html)
-
-<br>
-
-## Información dada por el _challenge_.
+## Información dada por el challenge.
 > Detalles útiles dados por el nivel anterior.
 - _hostname_: " bandit.labs.overthewire.org ".
 - _puerto_: " 22 " (2220).
@@ -39,8 +25,14 @@
 
 <br>
 
-> Detalles nuevos dados por la descripción de este nivel.
-- _comandos potencialmente útiles_: " ls, cd, cat, file, du, find ".
+> Comandos que puede necesitar para resolver este nivel.
+- > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html)  ,  [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html)  ,  [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html)  ,  [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html)  ,  [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html)  ,  [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html)
+
+<br>
+
+> Material de lectura útil.
+- [Búsqueda en Google de “dashed filename”](https://www.google.com/search?q=dashed+filename).
+- [Guía de Bash-scripting Avanzado - Capítulo 3 - Caracteres Especiales](https://linux.die.net/abs-guide/special-chars.html).
 
 <br>
 
@@ -49,28 +41,28 @@
 <br>
 
 ## Procedimiento.
+1. Una vez en el nivel 1, empezamos usando el comando _ls_ para enlistar todos los contenidos. Esto nos deja ver que hay un archivo llamado " - " en el directorio _home_.
 
 <br>
-
-1. Después de terminar de logearse al nivel 1, con la contraseña que obtuvimos en el _challenge_ anterior, y todavía
-usando los comandos que nos están recomendando los autores del _challenge_, comenzamos utilizando otra vez el comando **ls**. Es este comando el que nos hace saber que hay un único archivo en la ubicación donde estamos, siendo este " - ".
-
-<br>
-
-```bash
-	bandit1@bandit:~$ ls
+    
 ```
+	bandit1@bandit~$ ls
+```
+ 
+<br>
+
+2. En este caso, para poder ver los contenidos de un archivo con ese nombre, vamos a tener que especificar el _path_ entero hacia el archivo, siendo este " ./- " desde el directorio _home_. Uno tiene que hacer esto para poder evadir al terminal interpretando ese " - " como un indicador de " STDIN " o " STDOUT ", o como las versiones acortadas de las ubicaciones en el _file tree_ de " div/stdin " y " div/stdout " respectivamente. Especificando la ruta entera al archivo desde donde estamos debería ser suficiente para poder obtener los contenidos del archivo como _output_ utilizando el comando _cat_.
 
 <br>
 
-2. En ese caso, y para evitar confusiones, para poder obtener o saber cual es el contenido de este archivo con el comando **cat**, deberíamos especificar el camino o _path_ completo al archivo, siendo este " ./- ", para evitar que el terminal tome a " - " como un argumento que indique " STDIN / STDOUT " o las ubicaciones " div/stdin " y " div/stdout " del sistema. Ya aclarado esto, usado el comando _cat_, eso debería darnos como _output_ el contenido del archivo, que es la solución de este nivel y la contraseña de ingreso al siguiente.
-
-<br>
-
-```bash
+```
 	bandit1@bandit:~$ cat ./-
 ```
 
+<br>
+
+- y así es como uno obtiene, en este caso, la solución al nivel actual, la contraseña de entrada o logeo al nivel 2, siendo esta " 
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx " como _output_ del ultimo comando.
 <br>
 
 -----
@@ -81,9 +73,51 @@ usando los comandos que nos están recomendando los autores del _challenge_, com
 
 <br>
 
-![procedure image 1](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/attachments/procedure_bandit2.png?raw=true)
+<p align="center">
+  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/attachments/level-2_bandit_overthewire.png?raw=true" />
+</p>
+
+<br>
+
+----
+
+## Procedure.
+1. Once logged in level 1 (using the credentials found in the previous level) and still looking and taking notice on the commands recommended by the author of the challenge, I start by once again using the ls command, to list all the contents. This lets us know, that there is a single file in the home directory called " - ".
+
+<br>
+    
+```
+	bandit1@bandit~$ ls
+```
+ 
+<br>
+
+2. In this case, to be able to see the contents of a file named like that, and using the cat command, you would have to specify the entire path to the file, being this " ./- ". You have to do this in order to avoid having the terminal interpreting that " - " as an indicator of " STDIN " or " STDOUT ", or in other words, the shortened versions of the file tree ubications of " div/stdin " and " div/stdout ". Specifying the entire path to the file should be enough to get as the output of the command all the contents of the file.
+
+<br>
+
+```
+	bandit1@bandit:~$ cat ./-
+```
+
+<br>
+
+- and that is where you get the solution to the current level,  the password to the level 2, this being " 263JGJPfgU6LtdEvgfWU1XP5yac29mFx " as the output of the last command.
 
 <br>
 
 -----
 
+<br>
+
+## Attachment.
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/attachments/level-2_bandit_overthewire.png?raw=true" />
+</p>
+
+<br>
+
+----
