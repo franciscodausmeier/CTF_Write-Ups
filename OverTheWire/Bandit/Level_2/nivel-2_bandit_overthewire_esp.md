@@ -74,7 +74,7 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/attachments/level-2_bandit_overthewire.md?raw=true" />
+  <img src="./attachments/level-2_bandit_overthewire.gif" />
 </p>
 
 <br>
