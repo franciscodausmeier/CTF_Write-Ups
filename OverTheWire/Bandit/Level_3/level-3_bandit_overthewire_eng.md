@@ -1,24 +1,17 @@
 
 # [Level 3](https://overthewire.org/wargames/bandit/bandit3.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
+> Bandit Level 2 → Level 3
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/nivel-3_bandit_overthewire_esp.md)
 
 > [PDF version.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/level-3_bandit_overthewire_eng.pdf)
+
 -----
 
 <br>
 
 ## Challenge description.
-> Bandit Level 2 → Level 3
-
-> Level Goal.
-- > The password for the next level is stored in a file called  **spaces in this filename**  located in the home directory.
-
-> Commands you may need to solve this level.
-- > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html),  [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html),  [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html),  [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html),  [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html),  [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html).
-
-> Helpful Reading Material.
-- >  [Google Search for “spaces in filename”](https://www.google.com/search?q=spaces+in+filename).
+> The password for the next level is stored in a file called " --spaces in this filename-- " located in the home directory.
 
 <br>
 
@@ -31,8 +24,13 @@
 
 <br>
 
-> New useful information given by this level.
-- _potentially useful commands_: " ls, cd, cat, file, du, find ".
+> Commands you may need to solve this level.
+- > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html),  [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html),  [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html),  [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html),  [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html),  [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html).
+
+<br>
+
+> Helpful Reading Material.
+- >  [Google Search for “spaces in filename”](https://www.google.com/search?q=spaces+in+filename).
 
 <br>
 
@@ -45,7 +43,7 @@
 
 <br>
 
-1. Once again, after logging in to the current level with the credentials gained in the previous one, we use the **ls** command to see what we find at the file level at the beginning of this level.
+1. Once again, after logging in to the current level with the credentials gained in the previous one, we use the _ls_ command to see what we find at the file level at the beginning of this leve.
 
 <br>
 
@@ -59,54 +57,44 @@
 
 <br>
 
----
+2. To print the contents of the file in the terminal, we can use once again the command cat as we used in the file for the previous level. The problem with this one, is that it has multiple spaces
+included (as actual characters) right in the middle of the name of the file. This is a problem because the terminal usually interprets spaces as a separation that establishes multiple arguments inside of a command, not as another character in the name of a file.\
+To avoid this, we have to modify a little the syntax of the command in order to correctly specify the name of the file.In this case, we have 2 ways to achieve this.
 
 <br>
 
-2. Among the commands recommended by the authors of the challenge, in addition to the **ls** and **cat** commands, we also find the **file** command, which allows us, among other uses, to corroborate the type of file we are dealing with, regardless of the extension that may appear in the file name. This is how we can use it to find out what type of file we are dealing with in this case.
+- Using the backlslash as the breakcharacter that indicates where you have a space before this one actually appears...
 
 <br>
 
-```bash
-	bandit2@bandit:~$ file spaces\ in\ this\ filename\
+```
+	bandit2@bandit:~$ file ./--spaces\ in\ this\ filename--
 ```
 <br>
 
-```bash
-	bandit2@bandit:~$ file "spaces in this filename"
-```
+- or use either apostrophes or quotation marks at the start and end of the string chain that makes the name of the file.
 
 <br>
 
-* Either one of these 2 options works fine to guarantee that the **file** command reads correctly the spaces in the name of the file.
+```
+	bandit2@bandit:~$ file './--spaces in this filename--'
+```
+> with the use of apostrophes.
+
+<br>
+
+```
+	bandit2@bandit:~$ file "./--spaces in this filename--"
+```
+> or using quotation marks.
+
+<br>
+
+* Either one of these 2 options works fine to guarantee that the cat command reads correctly the spaces in the name of the file. And this is how we get the contents of the file printed on the screen and the password for the next level, this being " MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx ".
 
 <br> 
 
 ---
-
-<br>
-
-3. Having already used the **file** command and knowing that we are dealing with a text file, we know that we can use the **cat** command again to be able to print the contents of the file in the terminal.
-
-<br>
-
-```bash
-	bandit2@bandit:~$ cat spaces\ in\ this\ filename\
-```
-
-<br>
-
-```bash
-	bandit2@bandit:~$ cat "spaces in this filename"
-```
-
-<br>
-
-- Either one of these 2 options works fine to guarantee that the **cat** command reads correctly the spaces in the name of the file. And this is how we get the contents of the file printed on the screen and the password for the next level.
-
-<br>
-
------
 
 <br>
 
@@ -121,4 +109,3 @@
 <br>
 
 ----
-
