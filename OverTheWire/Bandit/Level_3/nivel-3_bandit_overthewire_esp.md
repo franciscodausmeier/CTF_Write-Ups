@@ -102,7 +102,7 @@ Para evadir esto, tenemos que modificar un poco la sintaxis del comando, especif
 <br>
 
 <p align="center">
-  <img src="./attachments/level-3_bandit_overthewire.gif>
+  <img src="./attachments/level-3_bandit_overthewire.gif">
 </p>
 
 <br>
