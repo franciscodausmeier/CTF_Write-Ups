@@ -68,7 +68,7 @@ To avoid this, we have to modify a little the syntax of the command in order to 
 <br>
 
 ```
-	bandit2@bandit:~$ file ./--spaces\ in\ this\ filename--
+	bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename--
 ```
 <br>
 
@@ -77,14 +77,14 @@ To avoid this, we have to modify a little the syntax of the command in order to 
 <br>
 
 ```
-	bandit2@bandit:~$ file './--spaces in this filename--'
+	bandit2@bandit:~$ cat './--spaces in this filename--'
 ```
 > with the use of apostrophes.
 
 <br>
 
 ```
-	bandit2@bandit:~$ file "./--spaces in this filename--"
+	bandit2@bandit:~$ cat "./--spaces in this filename--"
 ```
 > or using quotation marks.
 
