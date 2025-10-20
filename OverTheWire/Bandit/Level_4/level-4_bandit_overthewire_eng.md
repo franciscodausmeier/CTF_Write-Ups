@@ -80,6 +80,8 @@ What we can do from that position, is to check for the contents of that folder o
 
 5. The output of that command shows us that the file was actually in that folder hidden. So we apply to it the _cat_ command to print the contents and obtain the password for the next level, this being " 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ ".
 
+<br>
+
 ```
 	bandit3@bandit:~$ cat ...Hiding-From-You
 ```
