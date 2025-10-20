@@ -18,7 +18,7 @@
 
 <br>
 
-- [Level 4 (ENG)]() | [Nivel 4 (ESP)]().
+- [Level 4 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/level-4_bandit_overthewire_eng.md) | [Nivel 4 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/nivel-4_bandit_overthewire_esp.md).
 
 <br>
 
