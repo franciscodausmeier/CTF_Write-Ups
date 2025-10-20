@@ -44,6 +44,9 @@
 ```
 	bandit3@bandit:~$ ls
 ```
+<br>
+
+---
 
 <br>
 
@@ -54,6 +57,9 @@
 ```
 	bandit3@bandit:~$ cd inhere
 ```
+<br>
+
+---
 
 <br>
 
@@ -64,6 +70,9 @@
 ```
 	bandit3@bandit:~$ ls
 ```
+<br>
+
+---
 
 <br>
 
@@ -75,6 +84,9 @@ What we can do from that position, is to check for the contents of that folder o
 ```
 	bandit3@bandit:~$ ls -a
 ```
+<br>
+
+---
 
 <br>
 
