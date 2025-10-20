@@ -52,7 +52,7 @@
 <br>
 
 ```
-	bandit3@bandit~$ cd inhere
+	bandit3@bandit:~$ cd inhere
 ```
 
 <br>
@@ -95,7 +95,7 @@ What we can do from that position, is to check for the contents of that folder o
 <br>
 
 <p align="center">
-  <img src=".attachments/level-4_bandit_overthewire.gif"/>
+  <img src="./attachments/level-4_bandit_overthewire.gif"/>
 </p>
 
 <br>
