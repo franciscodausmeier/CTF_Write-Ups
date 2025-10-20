@@ -13,8 +13,6 @@
 <br>
 
 ## Descripción del challenge.
-> The password for the next level is stored in a hidden file in the " inhere " directory.
-
 > La contraseña para el siguiente nivel se encuentra guardada en un archivo escondido en el directorio " inhere ".
 
 <br>
