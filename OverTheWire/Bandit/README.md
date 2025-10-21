@@ -22,7 +22,7 @@
 
 <br>
 
-- [Level 5 (ENG)]() | [Nivel 5 (ESP)]().
+- [Level 5 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.md) | [Nivel 5 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/nivel-5_bandit_overthewire_esp.md)).
 
 <br>
 
