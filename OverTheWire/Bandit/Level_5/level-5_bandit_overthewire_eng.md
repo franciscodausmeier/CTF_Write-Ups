@@ -6,6 +6,8 @@
 
 > [PDF version.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.pdf)
 
+<br>
+
 -----
 
 <br>
