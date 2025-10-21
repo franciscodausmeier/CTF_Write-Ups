@@ -123,7 +123,7 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
 <br>
 
 <p align="center">
-  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/attachments/level-5_bandit_overthewire.png?raw=true"/>
+  <img src="./attachments/level-5_bandit_overthewire.gif"/>
 </p>
 
 <br>
