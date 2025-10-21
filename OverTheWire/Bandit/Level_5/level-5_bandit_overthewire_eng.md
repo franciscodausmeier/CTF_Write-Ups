@@ -11,7 +11,8 @@
 <br>
 
 ## Challenge description.
-> The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+> The password for the next level is stored in the only human-readable file in the inhere directory.\
+Tip: if your terminal is messed up, try the “reset” command.
 
 <br>
 
@@ -37,25 +38,12 @@
 
 <br>
 
-1. ...
+1. We use the _ls_ command to check for contents of the home folder.
 
 <br>
 
 ```
-	bandit3@bandit:~$ ls
-```
-<br>
-
----
-
-<br>
-
-2. Use the _cd_ command to change our ubication into the " inhere " folder.
-
-<br>
-
-```
-	bandit3@bandit:~$ cd inhere
+	bandit4@bandit:~$ ls
 ```
 <br>
 
@@ -63,26 +51,12 @@
 
 <br>
 
-3. We use the _ls_ command once again to check for the contents of the folder.
+2. After getting the location of the " inhere " directory with the previous command, we use the _cd_ command to change our ubication into that directory.
 
 <br>
 
 ```
-	bandit3@bandit:~$ ls
-```
-<br>
-
----
-
-<br>
-
-4. After looking for the file inside of the folder with the _ls_ command normally, we are going to realize that there are no files in that folder at first sight.\
-What we can do from that position, is to check for the contents of that folder once again, with the _ls_ command, but adding it the `` -a `` option, to check for hidden files (or files that begin their name with a dot) at that location.
-
-<br>
-
-```
-	bandit3@bandit:~$ ls -a
+	bandit4@bandit:~$ cd inhere
 ```
 <br>
 
@@ -90,13 +64,47 @@ What we can do from that position, is to check for the contents of that folder o
 
 <br>
 
-5. The output of that command shows us that the file was actually in that folder hidden. So we apply to it the _cat_ command to print the contents and obtain the password for the next level, this being " 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ ".
+3. Once inside " inhere ", we use the _ls_ command once again to check for the contents of the folder.
 
 <br>
 
 ```
-	bandit3@bandit:~$ cat ...Hiding-From-You
+	bandit4@bandit:~/inhere$ ls
 ```
+<br>
+
+---
+
+<br>
+
+4. After the last use of the _ls_ command, we get as the output 10 different files named from " -file00" to "-file09".\
+So, knowing this, we apply the _cat_ command to every single one of the files looking for the one that has human readable output in it, that should be the one that has the flag of the level according to the description of the challenge.
+
+<br>
+
+```
+	bandit4@bandit:~/inhere$ cat "./-file00"
+    
+    bandit4@bandit:~/inhere$ cat "./-file01"
+    
+    bandit4@bandit:~/inhere$ cat "./-file02"
+    
+    [...]
+    
+    bandit4@bandit:~/inhere$ cat "./-file07"
+    
+    bandit4@bandit:~/inhere$ cat "./-file08"
+    
+    bandit4@bandit:~/inhere$ cat "./-file09"
+```
+
+<br>
+
+---
+
+<br>
+
+5. The output of those commands shows us that the file that has the flag is "-file07", with an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
@@ -109,7 +117,7 @@ What we can do from that position, is to check for the contents of that folder o
 <br>
 
 <p align="center">
-  <img src="./attachments/level-5_bandit_overthewire.gif"/>
+  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/attachments/level-5_bandit_overthewire.png?raw=true"/>
 </p>
 
 <br>
