@@ -89,14 +89,9 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
     
     bandit4@bandit:~/inhere$ cat "./-file02"
 ```
-
-<br>
  
     [...]
 
-<br>
-
-```    
     bandit4@bandit:~/inhere$ cat "./-file07"
     
     bandit4@bandit:~/inhere$ cat "./-file08"
@@ -106,11 +101,7 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
 
 <br>
 
----
-
-<br>
-
-5. The output of those commands shows us that the file that has the flag is "-file07", with an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
+- The output of those commands shows us that the file that has the flag is "-file07", with an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
