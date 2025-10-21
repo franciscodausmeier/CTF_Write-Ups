@@ -88,9 +88,15 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
     bandit4@bandit:~/inhere$ cat "./-file01"
     
     bandit4@bandit:~/inhere$ cat "./-file02"
-    
+```
+
+<br>
+ 
     [...]
-    
+
+<br>
+
+```    
     bandit4@bandit:~/inhere$ cat "./-file07"
     
     bandit4@bandit:~/inhere$ cat "./-file08"
