@@ -41,7 +41,7 @@
 
 <br>
 
-## Procedure.
+## Procedimiento.
 
 <br>
 
