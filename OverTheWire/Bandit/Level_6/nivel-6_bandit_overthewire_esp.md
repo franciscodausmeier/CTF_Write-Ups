@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/level-6_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/level-6_bandit_overthewire_eng.pdf)
+> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/nivel-6_bandit_overthewire_esp.pdf)
 
 <br>
 
