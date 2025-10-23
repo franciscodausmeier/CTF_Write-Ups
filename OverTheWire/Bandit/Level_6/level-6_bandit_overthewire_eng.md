@@ -13,8 +13,11 @@
 <br>
 
 ## Challenge description.
-> The password for the next level is stored in the only human-readable file in the inhere directory.\
-Tip: if your terminal is messed up, try the “reset” command.
+> The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: \
+\
+	human-readable\
+	1033 bytes in size\
+	not executable
 
 <br>
 
@@ -45,7 +48,9 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 ```
+
 	bandit4@bandit:~$ ls
+
 ```
 <br>
 
@@ -58,7 +63,9 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 ```
+
 	bandit4@bandit:~$ cd inhere
+
 ```
 <br>
 
@@ -71,7 +78,9 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ ls
+
 ```
 <br>
 
@@ -79,31 +88,39 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <br>
 
-4. After the last use of the _ls_ command, we get as the output 10 different files named from " -file00" to "-file09".\
-So, knowing this, we apply the _cat_ command to every single one of the files looking for the one that has human readable output in it, that should be the one that has the flag of the level according to the description of the challenge.
+4. After the last use of the _ls_ command, we get as the output 20 different files named from " maybehere00 " to " maybehere19 ".\
+So, knowing this, we start looking inside every single one of these folders looking for a non executable file, that has 1033 bytes of size.
 
 <br>
 
 ```
-	bandit4@bandit:~/inhere$ cat "./-file00"
-    
-    bandit4@bandit:~/inhere$ cat "./-file01"
-    
-    bandit4@bandit:~/inhere$ cat "./-file02"
- 
-    [...]
 
-    bandit4@bandit:~/inhere$ cat "./-file07"
+	bandit4@bandit:~/inhere$ cd maybehere[..]
     
-    bandit4@bandit:~/inhere$ cat "./-file08"
+    bandit4@bandit:~/inhere/maybehere[..]$ ls -lsa
     
-    bandit4@bandit:~/inhere$ cat "./-file09"
+    bandit4@bandit:~/inhere$ cd ..
+
+```
+
+> These would be the commands we apply to each and every single folder looking for that file.
+
+
+<br>
+
+5. After looking individually in each folder, we reach " maybehere07 ", were we find a file called " .file2 " that is a non executable that also is 1033 bytes in size. So, we apply the _cat_ command to it, to see if it´s output is human readable, and these are the results.
+
+<br>
+
+```
+
+	bandit4@bandit:~/inhere/maybehere07$ cat .file2
 
 ```
 
 <br>
 
-- The output of those commands shows us that the file that has the flag is "-file07", with an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
+- And that´s where we find the human readable string that makes the _flag_ of this level, and the password for the next level. This being " HWasnPhtq9AVKe0dmk45nxy20cvUa6EG ".
 
 <br>
 
@@ -119,6 +136,6 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
   <img src="./attachments/level-6_bandit_overthewire.gif"/>
 </p>
 
-<br>
+> Entire procedure.
 
----
+<br>
