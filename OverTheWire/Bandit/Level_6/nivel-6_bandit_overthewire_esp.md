@@ -50,9 +50,7 @@
 <br>
 
 ```
-
 	bandit4@bandit:~$ ls
-
 ```
 <br>
 
@@ -65,9 +63,7 @@
 <br>
 
 ```
-
 	bandit4@bandit:~$ cd inhere
-
 ```
 <br>
 
@@ -80,9 +76,7 @@
 <br>
 
 ```
-
 	bandit4@bandit:~/inhere$ ls
-
 ```
 <br>
 
@@ -96,13 +90,11 @@ Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo 
 <br>
 
 ```
-
 	bandit4@bandit:~/inhere$ cd maybehere[..]
     
     bandit4@bandit:~/inhere/maybehere[..]$ ls -lsa
     
-    bandit4@bandit:~/inhere$ cd ..
-
+    bandit4@bandit:~/inhere/maybehere[..]$ cd ..
 ```
 
 > Estos son los comandos que aplicamos en cada una de las carpetas en busqueda del archivo con la _flag_.
@@ -118,9 +110,7 @@ Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo 
 <br>
 
 ```
-
 	bandit4@bandit:~/inhere/maybehere07$ cat .file2
-
 ```
 
 <br>
