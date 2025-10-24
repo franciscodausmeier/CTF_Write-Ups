@@ -109,6 +109,10 @@ Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo 
 
 <br>
 
+---
+
+<br>
+
 5. Luego de buscar individualmente in cada directorio, llegamos a " maybehere07 ", donde encontramos un archivo llamado " .file2 " que no es ejecutable y además tiene 1033 bytes de tamaño. Nuevamente, le aplicamos _cat_, para ver su si _output_ es leíble, y estos son los resultados.
 
 <br>

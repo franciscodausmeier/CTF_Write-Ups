@@ -105,6 +105,9 @@ So, knowing this, we start looking inside every single one of these folders look
 
 > These would be the commands we apply to each and every single folder looking for that file.
 
+<br>
+
+---
 
 <br>
 
