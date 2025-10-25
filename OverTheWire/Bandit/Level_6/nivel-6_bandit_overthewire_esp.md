@@ -1,10 +1,10 @@
 
 # [Nivel 6](https://overthewire.org/wargames/bandit/bandit6.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
-> Bandit Nivel 5 → Level 6
+> Bandit Nivel 5 → Nivel 6
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/level-6_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/nivel-6_bandit_overthewire_esp.pdf)
+> [Versión en PDF.](https://drive.google.com/file/d/1eLWTihUY_fbqgYagbEHVcjjanCaiYrEx/view?usp=drive_link)
 
 <br>
 
@@ -50,7 +50,9 @@
 <br>
 
 ```
+
 	bandit4@bandit:~$ ls
+
 ```
 <br>
 
@@ -63,7 +65,9 @@
 <br>
 
 ```
+
 	bandit4@bandit:~$ cd inhere
+
 ```
 <br>
 
@@ -76,7 +80,9 @@
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ ls
+
 ```
 <br>
 
@@ -90,12 +96,16 @@ Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo 
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ cd maybehere[..]
     
     bandit4@bandit:~/inhere/maybehere[..]$ ls -lsa
     
     bandit4@bandit:~/inhere/maybehere[..]$ cd ..
+
 ```
+
+<br>
 
 > Estos son los comandos que aplicamos en cada una de las carpetas en busqueda del archivo con la _flag_.
 
@@ -110,7 +120,9 @@ Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo 
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere/maybehere07$ cat .file2
+
 ```
 
 <br>
