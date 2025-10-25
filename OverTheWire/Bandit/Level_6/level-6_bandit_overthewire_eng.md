@@ -138,7 +138,7 @@ So, knowing this, we start looking inside every single one of these folders look
 <br>
 
 <p align="center">
-  <img src="./attachments/level-6_bandit_overthewire.gif"/>
+  <img src="https://drive.google.com/file/d/1okUhWkm0QeMtX5uWfL_mNi3bJDI3tCiD/view?usp=drive_link"/>
 </p>
 
 > Entire procedure.
