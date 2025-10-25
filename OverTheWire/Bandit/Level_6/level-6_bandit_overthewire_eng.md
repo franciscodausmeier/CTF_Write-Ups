@@ -48,7 +48,9 @@
 <br>
 
 ```
+
 	bandit4@bandit:~$ ls
+
 ```
 <br>
 
@@ -61,7 +63,9 @@
 <br>
 
 ```
+
 	bandit4@bandit:~$ cd inhere
+
 ```
 <br>
 
@@ -74,7 +78,9 @@
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ ls
+
 ```
 <br>
 
@@ -88,12 +94,16 @@ So, knowing this, we start looking inside every single one of these folders look
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ cd maybehere[..]
     
     bandit4@bandit:~/inhere/maybehere[..]$ ls -lsa
     
     bandit4@bandit:~/inhere/maybehere[..]$ cd ..
+
 ```
+
+<br>
 
 > These would be the commands we apply to each and every single folder looking for that file.
 
@@ -108,7 +118,9 @@ So, knowing this, we start looking inside every single one of these folders look
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere/maybehere07$ cat .file2
+
 ```
 
 <br>
