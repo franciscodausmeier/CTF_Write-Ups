@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/level-4_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/nivel-4_bandit_overthewire_esp.pdf)
+> [Versión en PDF.](https://drive.google.com/file/d/1ZJ45JXEeEoTxAQA40-v-m3E5dbzkxQa2/view?usp=drive_link)
 
 <br>
 
@@ -45,7 +45,9 @@
 <br>
 
 ```
-	bandit3@bandit:~$ ls
+	
+    bandit3@bandit:~$ ls
+
 ```
 
 <br>
@@ -59,7 +61,9 @@
 <br>
 
 ```
+
 	bandit3@bandit:~$ cd inhere
+
 ```
 
 <br>
@@ -73,8 +77,11 @@
 <br>
 
 ```
-	bandit3@bandit:~$ ls
+
+	bandit3@bandit:~/inhere$ ls
+
 ```
+
 <br>
 
 ---
@@ -87,7 +94,9 @@ Lo que podemos hacer desde esta posición, es controlar por archivos ocultos den
 <br>
 
 ```
-	bandit3@bandit:~$ ls -a
+
+	bandit3@bandit:~/inhere$ ls -a
+
 ```
 
 <br>
@@ -101,7 +110,9 @@ Lo que podemos hacer desde esta posición, es controlar por archivos ocultos den
 <br>
 
 ```
-	bandit3@bandit:~$ cat ...Hiding-From-You
+
+	bandit3@bandit:~/inhere$ cat ...Hiding-From-You
+
 ```
 
 <br>
@@ -118,4 +129,8 @@ Lo que podemos hacer desde esta posición, es controlar por archivos ocultos den
   <img src="./attachments/level-4_bandit_overthewire.gif"/>
 </p>
 
+> Procedimiento entero.
+
 <br>
+
+---

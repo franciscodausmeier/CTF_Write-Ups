@@ -4,7 +4,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/nivel-4_bandit_overthewire_esp.md)
 
-> [PDF version.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/level-4_bandit_overthewire_eng.pdf)
+> [PDF version.](https://drive.google.com/file/d/1vzb_Gdz-6Q9jdxbZZ1Ne02m1I0juiK1H/view?usp=drive_link)
 
 -----
 
@@ -42,8 +42,11 @@
 <br>
 
 ```
+
 	bandit3@bandit:~$ ls
+
 ```
+
 <br>
 
 ---
@@ -55,8 +58,11 @@
 <br>
 
 ```
+
 	bandit3@bandit:~$ cd inhere
+
 ```
+
 <br>
 
 ---
@@ -68,8 +74,11 @@
 <br>
 
 ```
-	bandit3@bandit:~$ ls
+
+	bandit3@bandit:~/inhere$ ls
+
 ```
+
 <br>
 
 ---
@@ -82,7 +91,9 @@ What we can do from that position, is to check for the contents of that folder o
 <br>
 
 ```
-	bandit3@bandit:~$ ls -a
+
+	bandit3@bandit:~/inhere$ ls -a
+
 ```
 <br>
 
@@ -95,7 +106,9 @@ What we can do from that position, is to check for the contents of that folder o
 <br>
 
 ```
+
 	bandit3@bandit:~$ cat ...Hiding-From-You
+
 ```
 
 <br>
@@ -111,6 +124,8 @@ What we can do from that position, is to check for the contents of that folder o
 <p align="center">
   <img src="./attachments/level-4_bandit_overthewire.gif"/>
 </p>
+
+> Entire procedure.
 
 <br>
 
