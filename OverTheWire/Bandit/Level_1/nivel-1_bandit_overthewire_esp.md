@@ -5,7 +5,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/level-1_bandit_overthewire_eng.md) 
 
-> [Version en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/nivel-1_bandit_overthewire_esp.pdf)
+> [Version en PDF](https://drive.google.com/file/d/1lIZ-dUEtSZLI6ix28g5gsNftjP9t8wUf/view?usp=drive_link).
 
 -----
 
@@ -49,21 +49,27 @@
 
 <br>
 
-1. Una vez logeado en el nivel 0 (usando las credenciales usadas encontradas en el nivel anterior), usar los "comandos
-que puedes llegar a necesitar para poder resolver en este nivel" encontrados en la descripción del _challenge_ para guiarse
-en como resolver este nivel.
+1. Una vez logeado en el nivel 0 (usando las credenciales usadas encontradas en el nivel anterior), usar los "comandos que puedes llegar a necesitar para poder resolver en este nivel" encontrados en la descripción del _challenge_ para guiarse en como resolver este nivel.
 
 <br>
 
-2. Entre los comandos encontrados en ese listado, podemos encontrar como particularmente útiles, los comandos "**ls**" y 
-"**cat**". El primero, para poder listar todo el contenido de la ubicación específica en la cual nos
-encontramos...
+---
 
 <br>
 
-```shell
-	bandit0@bandit:~$ ls
+2. Entre los comandos encontrados en ese listado, podemos encontrar como particularmente útiles, los comandos _ls_ y _cat_. El primero, para poder listar todo el contenido de la ubicación específica en la cual nos encontramos...
+
+<br>
+
 ```
+
+	bandit0@bandit:~$ ls
+
+```
+
+<br>
+
+---
 
 <br>
 
@@ -71,8 +77,10 @@ encontramos...
 
 <br>
 
-```shell
+```
+
 	bandit0@bandit:~$ cat readme
+
 ```
 
 <br>

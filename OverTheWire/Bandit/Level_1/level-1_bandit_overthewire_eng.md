@@ -4,7 +4,9 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/nivel-1_bandit_overthewire_esp.md).
 
-> [PDF version](https://drive.google.com/file/d/1V4Ew91pLnz3nTKUKI6NhmbKi3JBNLlGQ/view?usp=drive_link).
+> [PDF version](https://drive.google.com/file/d/1T6D3w2T5pPzkZ_8_j37KjtdXwUUgc8Zh/view?usp=drive_link).
+
+<br>
 
 -----
 
@@ -43,8 +45,15 @@
 <br>
 
 ## Procedure.
+
+<br>
+
 1. Once logged in level 0 (using the credentials found in the previous level), look at the " Commands you may need to solve this level " given in the description of the challenge, and explore them to better guide yourself in solving the level.
     
+<br>
+
+---
+
 <br>
 
 2. Amongst all the commands that are on that list, there's a couple of them that are specially useful when it comes to reaching the flag in this level. The first one being " **ls** ", which allows you to list all the contents of the specific ubication in which you are in...
@@ -54,6 +63,10 @@
 ```
 	bandit0@bandit:~$ ls
 ```
+
+<br>
+
+---
 
 <br>
 
