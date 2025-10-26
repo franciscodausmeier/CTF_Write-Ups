@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/level-0_century_underthewire_eng.md).
 
-> [Versión en PDF](https://drive.google.com/file/d/1W_3ptIVw4lfbCBa0bthvd6NzMW5QUeuZ/view?usp=drive_link).
+> [Versión en PDF](https://drive.google.com/file/d/1pDUubStXZd9GDU3C0uBup0lDhfysbLS_/view?usp=drive_link).
 
 <br>
 
