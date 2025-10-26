@@ -1,6 +1,6 @@
 
 # [Nivel 5](https://overthewire.org/wargames/bandit/bandit5.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
-> Bandit Nivel 4 → Level 5
+> Bandit Nivel 4 → Nivel 5
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.md)
 
@@ -126,7 +126,7 @@ Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando pr
 <br>
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1yR654l15WsrM_i5fFiglH2QD3fYv0QWB/view?usp=sharing"/>
+  <img src=".attachments/level-5_bandit_overthewire.gif"/>
 </p>
 
 > Procedimiento entero.
