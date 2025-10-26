@@ -2,9 +2,11 @@
 # [Level 2](https://overthewire.org/wargames/bandit/bandit2.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
 > Level 1 &rarr; Level 2.
 
-> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/nivel-2_bandit_overthewire_esp.md)
+> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/nivel-2_bandit_overthewire_esp.md).
 
-> [PDF version.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_eng.pdf)
+> [PDF version](https://drive.google.com/file/d/1I8vnalRdFcG3Pe6xx1-klTERFFtEFxbh/view?usp=drive_link).
+
+<br>
 
 -----
 
@@ -41,14 +43,23 @@
 <br>
 
 ## Procedure.
+
+<br>
+
 1. Once logged in level 1 (using the credentials found in the previous level) and still looking and taking notice on the commands recommended by the author of the challenge, I start by once again using the ls command, to list all the contents. This lets us know, that there is a single file in the home directory called " - ".
 
 <br>
     
 ```
+
 	bandit1@bandit~$ ls
+
 ```
  
+<br>
+
+---
+
 <br>
 
 2. In this case, to be able to see the contents of a file named like that, and using the cat command, you would have to specify the entire path to the file, being this " ./- ". You have to do this in order to avoid having the terminal interpreting that " - " as an indicator of " STDIN " or " STDOUT ", or in other words, the shortened versions of the file tree ubications of " div/stdin " and " div/stdout ". Specifying the entire path to the file should be enough to get as the output of the command all the contents of the file.
@@ -56,7 +67,9 @@
 <br>
 
 ```
+
 	bandit1@bandit:~$ cat ./-
+
 ```
 
 <br>
@@ -76,6 +89,8 @@
 <p align="center">
   <img src="./attachments/level-2_bandit_overthewire.gif" />
 </p>
+
+> Entire procedure.
 
 <br>
 

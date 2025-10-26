@@ -2,9 +2,9 @@
 # [Nivel 2](https://overthewire.org/wargames/bandit/bandit2.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
 > Nivel 1 &rarr; Nivel 2.
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_eng.md)
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/level-2_bandit_overthewire_eng.md).
 
-> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_2/nivel-2_bandit_overthewire_esp.pdf)
+> [Versión en PDF](https://drive.google.com/file/d/1nImGsUhcoHRsa5e6OVWCg5iKCIMyLZtV/view?usp=drive_link).
 
 -----
 
@@ -41,14 +41,24 @@
 <br>
 
 ## Procedimiento.
+
+<br>
+
 1. Una vez en el nivel 1, empezamos usando el comando _ls_ para enlistar todos los contenidos. Esto nos deja ver que hay un archivo llamado " - " en el directorio _home_.
 
 <br>
     
 ```
+
 	bandit1@bandit~$ ls
+
 ```
  
+<br>
+
+
+---
+
 <br>
 
 2. En este caso, para poder ver los contenidos de un archivo con ese nombre, vamos a tener que especificar el _path_ entero hacia el archivo, siendo este " ./- " desde el directorio _home_. Uno tiene que hacer esto para poder evadir al terminal interpretando ese " - " como un indicador de " STDIN " o " STDOUT ", o como las versiones acortadas de las ubicaciones en el _file tree_ de " div/stdin " y " div/stdout " respectivamente. Especificando la ruta entera al archivo desde donde estamos debería ser suficiente para poder obtener los contenidos del archivo como _output_ utilizando el comando _cat_.
@@ -56,13 +66,16 @@
 <br>
 
 ```
+
 	bandit1@bandit:~$ cat ./-
+
 ```
 
 <br>
 
 - y así es como uno obtiene, en este caso, la solución al nivel actual, la contraseña de entrada o logeo al nivel 2, siendo esta " 
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx " como _output_ del ultimo comando.
+
 <br>
 
 -----
@@ -76,6 +89,8 @@
 <p align="center">
   <img src="./attachments/level-2_bandit_overthewire.gif" />
 </p>
+
+> Procedimiento entero.
 
 <br>
 
