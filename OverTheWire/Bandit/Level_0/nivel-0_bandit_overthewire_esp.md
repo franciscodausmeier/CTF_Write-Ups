@@ -3,11 +3,14 @@
 
 > Nivel 0.
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_eng.md) 
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/level-0_bandit_overthewire_eng.md).
 
-> [Versión en PDF](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_0/nivel-0_bandit_overthewire_esp.pdf)
+> [Versión en PDF](https://drive.google.com/file/d/1JsIZfXQf9GKJ-_NgBcoQ6rt3IP8h_N-I/view?usp=drive_link).
+
+<br>
 
 -----
+
 <br>
 
 ## Descripción del _challenge_.
@@ -44,33 +47,55 @@
 
 <br>
 
-1. Usar los datos dados por la descripción del _challenge_ para poder completar el comando SSH con el cual vamos a poder logearnos al correspondiente server para el _challenge_, siguiendo la estructura del comando SSH:
+1. Usar los datos dados por la descripción del _challenge_ para poder completar el comando _ssh_ con el cual vamos a poder logearnos al primer nivel del _challenge_, siguiendo la estructura del comando _ssh_:
 
 <br>
 
-```shell
-	bandit0@bandit:~$ ssh usuario@host_name -p puerto 
 ```
 
-o
+	[...]@[...]:~$ ssh usuario@host_name -p puerto 
 
-```shell
-    bandit0@bandit:~$ ssh host_name -l usuario -p puerto
 ```
 
 <br>
 
-* donde la opción "**-p**", nos permite especificar el puerto para la conección del login, y el numero "**2220**", que indica el puerto de default (22) en la implementación del procolo de red SSH. El segundo ejemplo nos muestra como también podemos usar la opción "**-l**" para poder especificar el nombre de usuario sin la necesidad de usar la notación _usuario@host_name_.
+o...
 
 <br>
 
-```shell
-	bandit0@bandit:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220 
+```
+
+    [...]@[...]:~$ ssh host_name -l usuario -p puerto
+
 ```
 
 <br>
 
-2. Luego de ejecutar el comando correctamente, se te debería pedir la contraseña por parte del server del _wargame_ para poder logearte e ingresar al primer nivel, siendo la contraseña para el ingreso "**bandit0**", y eso debería ser todo. 
+* donde la opción `` -p ``, nos permite especificar el puerto para la conección del login, y el numero `` 2220 ``, que indica el puerto de default (22) en la implementación del procolo de red SSH. El segundo ejemplo nos muestra como también podemos usar la opción ``-l `` para poder especificar el nombre de usuario sin la necesidad de usar la notación _usuario@host_name_.
+
+<br>
+
+```
+
+	[...]@[...]:~$ ssh @bandit.labs.overthewire.org -l bandit0 -p 2220 
+
+```
+
+<br>
+
+o...
+
+<br>
+
+```
+
+	[...]@[...]:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220 
+
+```
+
+<br>
+
+2. Luego de ejecutar el comando correctamente, se te debería pedir la contraseña por parte del server del _wargame_ para poder logearte e ingresar al primer nivel, siendo la contraseña para el ingreso _bandit0_, y eso debería ser todo. 
 
 <br>
 
@@ -78,14 +103,15 @@ o
 
 <br>
 
-## Demostración.
+## Adjuntos.
 
 <br>
 
 <p align="center">
-  <img src="./attachments/level-0_bandit_overthewire.gif" />
+  <img src="./attachments/level-0_bandit_overthewire.gif"/>
 </p>
+
+> Procedimiento entero.
 
 <br>
 
------
