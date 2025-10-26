@@ -1,73 +1,73 @@
 
-- - - 
+# [Nivel 1](https://underthewire.tech/century) | [Century](https://underthewire.tech/century) | [UnderTheWire](https://underthewire.tech/)
+> Century Nivel 0 → Nivel 1
 
-# [UnderTheWire.](https://underthewire.tech)
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/nivel-0_bandit_overthewire_esp.md).
 
-## Reporte/informe (Write-up) para [Century, Level 0](https://underthewire.tech/century).
+> [Versión en PDF](https://drive.google.com/file/d/1W_3ptIVw4lfbCBa0bthvd6NzMW5QUeuZ/view?usp=drive_link).
 
-- - -
+<br>
 
-### Nivel 0 - Logear con SSH con PuTTY.
+---
 
-#### ) Descripción del challenge:
+<br>
 
-El objetivo de este nivel es lograr logear dentro del primer nivel del _wargame_. Hacer lo siguiente
-para poder lograr este objetivo:
-1. Obtener las credenciales iniciales desde nuestro canal de Slack #StartHere. Una vez estés en el canal,
-   hacer _scroll_ hasta la parte mas alta de este canal para poder ver las credenciales.
-2. Luego de obtener las credenciales, conectar al server mediante el protocolo **SSH**. Para esto, vas a necesitar
-   un cliente de **SSH** como PuTTy. El _host_ al que nos vamos a estar conectando es century.underthewire.tech, 
-   y el puerto correspondiente es el 22.
-3. Cuando se te pregunte por ellas, vas a tener que ingresar las credenciales encontradas en el canal #StartHere de
-   Slack. 
-4. Te vas a haber conectado efectivamente al _wargame_ una vez que el _path file_ del terminal cambia a 
-   ``` PS C:\Users\Century1\desktop> ```.
+## Descripción del _challenge_.
+> The goal of this level is to log into the game. Do the following in order to achieve this goal.
+> 1. Obtain the initial credentials via the #StartHere channel on our Slack (link). Once you are in the channel, scroll to the top to see the credentials.
+> 2. After obtaining the credentials, connect to the server via SSH. You will need an SSH client such as Putty. The host that you will be connecting to is century.underthewire.tech, on port 22.
+> 3. When prompted, use the credentials for the applicable game found in the #StartHere Slack channel.
+> 4. You have successfully connected to the game server when your path changes to “PS C:\Users\Century1\desktop>”.
 
+<br>
 
-#### ) Información dada por el _challenge_:
+## Información dada por el _challenge_.
+- _hostname_: " century.underthewire.tech ".
+- _puerto_: " 22 " (2220).
+- _usuario_: " century1 ".
+- _contraseña_: " century1 ".
 
-- _nombre-de-host_: " **century.underthewire.tech** ".
-- _puerto_: " **22** " (2220).
-- _nombre-de-usuario_: " **century1** ".
-- _contraseña_: " **century1** ".
+<br>
 
-- - -
+---
 
-- - -
+## Procedimiento.
 
-### Procedimiento.
+<br>
 
-1. Usando los detalles dados por el _challenge_, es este caso, el _nombre-de-host_ y el _puerto_, para poder logear de
-   manera efectiva al servidor del _challenge_. En mi caso, voy a estar usando [PuTTY](https://www.putty.org/) como cliente 
-   de **SSH**. 
+1. Using the details given by the challenge, in this case, the host-name and the port, to log effectively to the server of the challenge. In my case, I am going to be doing it with [PuTTY](https://www.putty.org/) as a SSH client.
 
-   Dirigirse a la [primer imagen adjunta](https://user-images.githubusercontent.com/71414554/244987878-2d552630-a873-4a11-a9b0-a19789eb556e.png)
-   para este paso.
+<br>
 
-- - -
+---
 
-2. Una vez que hayas ingresado los detalles en cuestión en PuTTY, presioná "Open" en la aplicación. Luego de esto, de estar correctamente otorgados
-   el numero de puerto y el nombre del _host_, el servidor debería abrir y preguntar por las credenciales, preguntandonos por el _nombre-de-usuario_ 
-   y la _contraseña_ que ellos nos dieron en el canal de Slack. 
+<br>
 
-   [Descripción gráfica de este paso](https://user-images.githubusercontent.com/71414554/244987890-0f2778ce-f323-4d24-aec9-d0162d186e65.png).
+2. Una vez ingresamos los detalles a PuTTY, apretamos "Open" en la aplicación. Luego de esto, una vez abierto el terminal, ingresamos el _nombre-de-usuario_ y la _contraseña_ para poder logearnos (" century1 " tanto como usuario como contraseña). Estas se encuentran en el canal de Slack de UnderTheWire.
 
-- - -
+<br>
 
-3. Esa debería ser la resolución al problema. Una vez se ingresen las credenciales de manera correcta y se te otorgue el
-   ingreso al servidor, te deberías ver situado en el directorio ```PS C:\Users\Century1\desktop>```, así es como sabés con certeza
-   que se te otorgó ingreso al servidor del nivel 1 de este _wargame_.
+---
 
-   [Ultimo paso](https://user-images.githubusercontent.com/71414554/244987901-4138cd4d-8b5b-4299-af0e-70cd04db57f1.png) del proceso.
+<br>
 
-- - -
+3. Y eso debería ser todo. Una vez entres al nivel 1 del _challenge_ con las credenciales correctas, al lado del _prompt_, deberías poder ver tu ubicación en la capeta ``` PS C:\Users\Century1\desktop> ```. 
 
-### Archivos adjuntos.
+<br>
 
+---
 
-![screenshot1](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/2d552630-a873-4a11-a9b0-a19789eb556e)
+<br>
 
-![screenshot2](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/0f2778ce-f323-4d24-aec9-d0162d186e65)
+### Adjunto.
 
-![screenshot3](https://github.com/frandausmeier/CTF_Write-Ups/assets/71414554/4138cd4d-8b5b-4299-af0e-70cd04db57f1)
+<br>
+
+<p align="center">
+  <img src="./attachments/level-0_century_underthewire.gif"/>
+</p>
+
+> Procedimiento entero.
+
+<br>
 
