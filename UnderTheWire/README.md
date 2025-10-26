@@ -16,23 +16,11 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-* ~~Cyborg [2]~~.
+* Cyborg [2].
 
 <br>
 
-* ~~Groot [3]~~.
-
-<br>
-
-* ~~Oracle [4]~~.
-
-<br>
-
-* ~~Trebek [5]~~.
-
-<br>
-
-* ~~Xandar [offline]~~.
+* Groot [3].
 
 <br>
 

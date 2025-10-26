@@ -16,23 +16,11 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 
 <br>
 
-* ~~Cyborg [2]~~.
+* Cyborg [2].
 
 <br>
 
-* ~~Groot [3]~~.
-
-<br>
-
-* ~~Oracle [4]~~.
-
-<br>
-
-* ~~Trebek [5]~~.
-
-<br>
-
-* ~~Xandar [offline]~~.
+* Groot [3].
 
 <br>
 
