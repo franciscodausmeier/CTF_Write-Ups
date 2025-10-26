@@ -79,6 +79,8 @@
   <img src="./attachments/level-1_bandit_overthewire.gif" />
 </p>
 
+> Entire Procedure.
+
 <br>
 
 ----
