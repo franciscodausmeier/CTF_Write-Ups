@@ -4,7 +4,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/nivel-5_bandit_overthewire_esp.md)
 
-> [PDF version.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.pdf)
+> [PDF version.](https://drive.google.com/file/d/1wBjkvBEDFVRRRKrCmwPTEbApTvnvmLNn/view?usp=drive_link)
 
 <br>
 
@@ -45,8 +45,11 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 ```
+
 	bandit4@bandit:~$ ls
+
 ```
+
 <br>
 
 ---
@@ -58,8 +61,11 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 ```
+
 	bandit4@bandit:~$ cd inhere
+
 ```
+
 <br>
 
 ---
@@ -71,8 +77,11 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ ls
+
 ```
+
 <br>
 
 ---
@@ -85,6 +94,7 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ cat "./-file00"
     
     bandit4@bandit:~/inhere$ cat "./-file01"
@@ -118,6 +128,8 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
 <p align="center">
   <img src="./attachments/level-5_bandit_overthewire.gif"/>
 </p>
+
+> Entire procedure.
 
 <br>
 

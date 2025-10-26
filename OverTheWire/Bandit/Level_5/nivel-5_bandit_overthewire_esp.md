@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/nivel-5_bandit_overthewire_esp.pdf)
+> [Versión en PDF.](https://drive.google.com/file/d/1b3sVwl3pGwjXpkXYYbcyZA6oKkIeFQ2S/view?usp=drive_link)
 
 <br>
 
@@ -45,8 +45,11 @@ Tip: si tu terminal queda saturado, intenta con el comando _"reset"_.
 <br>
 
 ```
-	bandit4@bandit:~$ ls
+	
+    bandit4@bandit:~$ ls
+
 ```
+
 <br>
 
 ---
@@ -58,8 +61,11 @@ Tip: si tu terminal queda saturado, intenta con el comando _"reset"_.
 <br>
 
 ```
+
 	bandit4@bandit:~$ cd inhere
+
 ```
+
 <br>
 
 ---
@@ -71,7 +77,9 @@ Tip: si tu terminal queda saturado, intenta con el comando _"reset"_.
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ ls
+
 ```
 
 <br>
@@ -86,6 +94,7 @@ Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando pr
 <br>
 
 ```
+
 	bandit4@bandit:~/inhere$ cat "./-file00"
     
     bandit4@bandit:~/inhere$ cat "./-file01"
@@ -99,6 +108,7 @@ Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando pr
     bandit4@bandit:~/inhere$ cat "./-file08"
     
     bandit4@bandit:~/inhere$ cat "./-file09"
+
 ```
 
 <br>
@@ -118,3 +128,9 @@ Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando pr
 <p align="center">
   <img src="./attachments/level-5_bandit_overthewire.gif"/>
 </p>
+
+> Procedimiento entero.
+
+<br>
+
+---
