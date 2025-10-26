@@ -2,7 +2,7 @@
 # [Level 0](https://underthewire.tech/century) | [Century](https://underthewire.tech/century) | [UnderTheWire](https://underthewire.tech/)
 > Century Level 0 → Level 1
 
-> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/nivel-0_bandit_overthewire_esp.md).
+> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/nivel-0_century_underthewire_esp.md).
 
 > [PDF version](https://drive.google.com/file/d/1UBVA2lnsoyYOrJKaFXTq6g4TRtGLFD10/view?usp=drive_link).
 
