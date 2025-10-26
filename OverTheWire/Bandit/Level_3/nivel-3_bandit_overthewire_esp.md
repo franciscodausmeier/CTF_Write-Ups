@@ -4,7 +4,7 @@
 
 > Español | [English](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/level-3_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/nivel-3_bandit_overthewire_esp.pdf)
+> [Versión en PDF.](https://drive.google.com/file/d/1j-zgMBi_3kCDT0aUHpzehkX3Ujbk8_-Y/view?usp=drive_link)
 
 -----
 
@@ -48,7 +48,9 @@
 <br>
 
 ```
+
 	bandit2@bandit:~$ ls
+
 ```
 
 <br>
@@ -67,8 +69,11 @@ Para evadir esto, tenemos que modificar un poco la sintaxis del comando, especif
 <br>
 
 ```
+
 	bandit2@bandit:~$ file ./--spaces\ in\ this\ filename--
+
 ```
+
 <br>
 
 - o también usando apostrofes o comillas dobles como marcas al inicio y final del _string_ que hace al nombre del archivo.
@@ -76,14 +81,18 @@ Para evadir esto, tenemos que modificar un poco la sintaxis del comando, especif
 <br>
 
 ```
+
 	bandit2@bandit:~$ file './--spaces in this filename--'
+
 ```
 > con el uso de apostrofes.
 
 <br>
 
 ```
-	bandit2@bandit:~$ file "./--spaces in this filename--"
+	
+    bandit2@bandit:~$ file "./--spaces in this filename--"
+
 ```
 > o usando comillas dobles.
 
@@ -102,8 +111,10 @@ Para evadir esto, tenemos que modificar un poco la sintaxis del comando, especif
 <br>
 
 <p align="center">
-  <img src="./attachments/level-3_bandit_overthewire.gif">
+  <img src="./Level_3/attachments/level-3_bandit_overthewire.gif">
 </p>
+
+> Procedimiento entero.
 
 <br>
 

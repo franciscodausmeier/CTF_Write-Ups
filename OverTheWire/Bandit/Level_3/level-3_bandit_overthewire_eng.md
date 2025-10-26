@@ -4,7 +4,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/nivel-3_bandit_overthewire_esp.md)
 
-> [PDF version.](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/level-3_bandit_overthewire_eng.pdf)
+> [PDF version.](https://drive.google.com/file/d/1L1JZP5ERuaf9Ij3QEZPDqsu0JkmSQxnx/view?usp=drive_link)
 
 -----
 
@@ -40,15 +40,16 @@
 
 ## Procedure.
 
-
 <br>
 
 1. Once again, after logging in to the current level with the credentials gained in the previous one, we use the _ls_ command to see what we find at the file level at the beginning of this leve.
 
 <br>
 
-```bash
+```
+
 	bandit2@bandit:~$ ls
+
 ```
 
 <br>
@@ -68,8 +69,11 @@ To avoid this, we have to modify a little the syntax of the command in order to 
 <br>
 
 ```
+
 	bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename--
+
 ```
+
 <br>
 
 - or use either apostrophes or quotation marks at the start and end of the string chain that makes the name of the file.
@@ -77,14 +81,18 @@ To avoid this, we have to modify a little the syntax of the command in order to 
 <br>
 
 ```
+
 	bandit2@bandit:~$ cat './--spaces in this filename--'
+
 ```
 > with the use of apostrophes.
 
 <br>
 
 ```
+
 	bandit2@bandit:~$ cat "./--spaces in this filename--"
+
 ```
 > or using quotation marks.
 
@@ -103,8 +111,10 @@ To avoid this, we have to modify a little the syntax of the command in order to 
 <br>
 
 <p align="center">
-  <img src="./attachments/level-3_bandit_overthewire.gif" />
+  <img src="./attachments/level-3_bandit_overthewire.gif"/>
 </p>
+
+> Entire procedure.
 
 <br>
 
