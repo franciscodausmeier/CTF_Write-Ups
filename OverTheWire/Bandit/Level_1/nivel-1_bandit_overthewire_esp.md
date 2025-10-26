@@ -3,9 +3,11 @@
 
 > Nivel 0 &rarr; Nivel 1.
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/level-1_bandit_overthewire_eng.md) 
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_1/level-1_bandit_overthewire_eng.md).
 
 > [Version en PDF](https://drive.google.com/file/d/1lIZ-dUEtSZLI6ix28g5gsNftjP9t8wUf/view?usp=drive_link).
+
+<br>
 
 -----
 
@@ -96,6 +98,8 @@
 <p align="center">
   <img src="./attachments/level-1_bandit_overthewire.gif" />
 </p>
+
+> Entire procedure.
 
 <br>
 
