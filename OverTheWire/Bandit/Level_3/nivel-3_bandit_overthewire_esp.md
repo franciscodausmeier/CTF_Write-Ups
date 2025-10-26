@@ -2,9 +2,9 @@
 # [Nivel 3](https://overthewire.org/wargames/bandit/bandit3.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
 > Bandit Nivel 2 → Nivel 3
 
-> Español | [English](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/level-3_bandit_overthewire_eng.md)
+> Español | [English](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_3/level-3_bandit_overthewire_eng.md).
 
-> [Versión en PDF.](https://drive.google.com/file/d/1j-zgMBi_3kCDT0aUHpzehkX3Ujbk8_-Y/view?usp=drive_link)
+> [Versión en PDF](https://drive.google.com/file/d/1j-zgMBi_3kCDT0aUHpzehkX3Ujbk8_-Y/view?usp=drive_link).
 
 -----
 
