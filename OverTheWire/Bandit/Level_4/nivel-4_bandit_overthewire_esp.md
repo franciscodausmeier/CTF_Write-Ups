@@ -2,9 +2,9 @@
 # [Nivel 4](https://overthewire.org/wargames/bandit/bandit4.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
 > Bandit Nivel 3 → Nivel 4
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/level-4_bandit_overthewire_eng.md)
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_4/level-4_bandit_overthewire_eng.md).
 
-> [Versión en PDF.](https://drive.google.com/file/d/1ZJ45JXEeEoTxAQA40-v-m3E5dbzkxQa2/view?usp=drive_link)
+> [Versión en PDF](https://drive.google.com/file/d/1ZJ45JXEeEoTxAQA40-v-m3E5dbzkxQa2/view?usp=drive_link).
 
 <br>
 
