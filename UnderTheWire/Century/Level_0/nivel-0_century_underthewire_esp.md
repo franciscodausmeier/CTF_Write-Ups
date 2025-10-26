@@ -2,7 +2,7 @@
 # [Nivel 1](https://underthewire.tech/century) | [Century](https://underthewire.tech/century) | [UnderTheWire](https://underthewire.tech/)
 > Century Nivel 0 → Nivel 1
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/nivel-0_century_underthewire_esp.md).
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/level-0_century_underthewire_eng.md).
 
 > [Versión en PDF](https://drive.google.com/file/d/1W_3ptIVw4lfbCBa0bthvd6NzMW5QUeuZ/view?usp=drive_link).
 
