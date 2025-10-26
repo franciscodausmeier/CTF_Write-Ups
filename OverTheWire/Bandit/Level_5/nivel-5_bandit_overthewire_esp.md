@@ -126,7 +126,7 @@ Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando pr
 <br>
 
 <p align="center">
-  <img src="./attachments/level-5_bandit_overthewire.gif"/>
+  <img src="https://drive.google.com/file/d/1yR654l15WsrM_i5fFiglH2QD3fYv0QWB/view?usp=sharing"/>
 </p>
 
 > Procedimiento entero.
