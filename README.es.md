@@ -2,7 +2,7 @@
 
 <br>
 
-> <p> <span> Español - ESP </span> | <a href=> Inglés <a/> </p>
+> <p> <span> Español - ESP </span> | <a href=> Inglés - ING <a/>. </p>
 
 -----
 
