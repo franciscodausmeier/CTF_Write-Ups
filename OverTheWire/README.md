@@ -6,7 +6,11 @@
 
 -----
 
+<br>
+
 These are the write-ups, reports and additional notes I've compiled in the realisation of the OverTheWire war games.
+
+<br>
 
 -----
 
