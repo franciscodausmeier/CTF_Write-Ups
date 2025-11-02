@@ -2,9 +2,9 @@
 # [Level 7](https://overthewire.org/wargames/bandit/bandit7.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
 > Bandit Level 6 → Level 7
 
-> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_7/nivel-7_bandit_overthewire_esp.md)
+> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_7/nivel-7_bandit_overthewire_esp.md).
 
-> [PDF version.](https://drive.google.com/file/d/1CpFSQumI9F7E4xCMI6IeCH2iHqVhNU4o/view?usp=drive_link)
+> [PDF version](https://drive.google.com/file/d/1CpFSQumI9F7E4xCMI6IeCH2iHqVhNU4o/view?usp=drive_link).
 
 <br>
 
