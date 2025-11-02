@@ -34,4 +34,27 @@
 
 <br>
 
+
+- [Level 8 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_8/level-8_bandit_overthewire_eng.md) | [Nivel 8 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_8/nivel-8_bandit_overthewire_esp.md).
+
+<br>
+
+
+- [Level 9 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_9/level-9_bandit_overthewire_eng.md) | [Nivel 9 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_9/nivel-9_bandit_overthewire_esp.md).
+
+<br>
+
+- [Level 10 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_10/level-10_bandit_overthewire_eng.md) | [Nivel 10 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_10/nivel-10_bandit_overthewire_esp.md).
+
+<br>
+
+- [Level 11 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_11/level-11_bandit_overthewire_eng.md) | [Nivel 11 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_11/nivel-11_bandit_overthewire_esp.md).
+
+<br>
+
+
+- [Level 12 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_12/level-12_bandit_overthewire_eng.md) | [Nivel 12 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_12/nivel-12_bandit_overthewire_esp.md).
+
+<br>
+
 -----
