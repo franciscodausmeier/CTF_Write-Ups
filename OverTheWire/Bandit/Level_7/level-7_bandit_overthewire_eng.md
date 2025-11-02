@@ -120,7 +120,7 @@ With this in mind, we should be looking in other locations for the file with the
 
 <br>
 
-- Adding `` -exec `` in here, we are telling the terminal to redirect the output of the command that gave us the supposed file that has the level of the flag, into the curly brackets that serve as a place holder for that output. So once in there, _[cat](https://www.man7.org/linux/man-pages/man1/cat.1.html)_ is going to be executed to that file in particular, giving us the output, this being " morbNTDkSW6jI1Uc@ymOdMaLn01FVAaj ". The `` + `` character is only acting as a break character for the command, indicating it's end.
+- Adding `` -exec `` in here, we are telling the terminal to redirect the output of the command that gave us the supposed file that has the level of the flag, into the curly brackets that serve as a place holder for that output. So once in there, _[cat](https://www.man7.org/linux/man-pages/man1/cat.1.html)_ is going to be executed to that file in particular, giving us the output, this being " morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj ". The `` + `` character is only acting as a break character for the command, indicating it's end.
 
 <br>
 
