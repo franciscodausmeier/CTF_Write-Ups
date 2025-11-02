@@ -67,8 +67,8 @@ With this in mind, we should be looking in other locations for the file with the
 ```
 
 	bandit4@bandit:~$ file / type f ! -executable \
-    -size 33c -user bandit7 -group bandit6 \
-    2>/dev/null
+    > -size 33c -user bandit7 -group bandit6 \
+    > 2>/dev/null
 
 ```
 
@@ -133,7 +133,7 @@ With this in mind, we should be looking in other locations for the file with the
 <br>
 
 <p align="center">
-  <img src="./attachments/level-7_bandit_overthewire.png"/>
+  <img src="./attachments/level-7_bandit_overthewire.gif"/>
 </p>
 
 > Entire procedure.
