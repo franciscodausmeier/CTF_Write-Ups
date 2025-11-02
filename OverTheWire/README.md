@@ -2,7 +2,7 @@
 
 <br>
 
-> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/README.es.md> Spanish - SPA<a/>. </p>
+> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/README.es.md> Spanish - SPA <a/>. </p>
 
 -----
 
@@ -16,7 +16,7 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-* Krypton [2].(https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Krypton/README.md)
+* Krypton [2].
 
 <br>
 
