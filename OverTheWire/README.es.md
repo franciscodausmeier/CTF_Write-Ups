@@ -2,7 +2,7 @@
 
 <br>
 
-> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire> Inglés <a/> </p>
+> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire> Inglés - ING<a/>. </p>
 
 -----
 
@@ -13,6 +13,10 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 <br>
 
 * [Bandit [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md)
+
+<br>
+
+* Krypton [2].(https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Krypton/README.md)
 
 <br>
 
