@@ -2,7 +2,7 @@
 
 <br>
 
-> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire> Inglés - ING <a/>. </p>
+> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/tree/main/OverTheWire> Inglés - ING<a/>. </p>
 
 -----
 
