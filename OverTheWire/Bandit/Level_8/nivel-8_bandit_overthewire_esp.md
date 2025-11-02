@@ -129,7 +129,7 @@ With this in mind, we should be looking in other locations for the file with the
 <br>
 
 <p align="center">
-  <img src="./attachments/level-7_bandit_overthewire.gif"/>
+  <img src="./attachments/level-8_bandit_overthewire.gif"/>
 </p>
 
 > Procedimiento entero.
