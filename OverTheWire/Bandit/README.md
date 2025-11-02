@@ -1,6 +1,5 @@
-> Unix / Linux Basics.
-
 # [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](../README.md)
+> Unix / Linux Basics.
 
 <br>
 
