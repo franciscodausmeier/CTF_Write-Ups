@@ -80,6 +80,10 @@ Knowing this, we can take a peak at the contents of the file. We can do this onc
 
 <br>
 
+---
+
+<br>
+
 3. _[Head](https://man7.org/linux/man-pages/man1/head.1.html)_ and _[tail](https://www.man7.org/linux/man-pages/man1/tail.1.html)_ shows us that the file has a good amount of contents, showing 5 full lines at the start and at the end of it. One thing that we can do to know the exact number of lines in a document (to know if it is convenient to use [cat](https://www.man7.org/linux/man-pages/man1/cat.1.html) to get the contents), is use [wc](https://man7.org/linux/man-pages/man1/wc.1.html), alongside it's `` -l `` option.
 
 <br>
