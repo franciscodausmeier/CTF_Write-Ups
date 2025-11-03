@@ -4,7 +4,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_8/nivel-8_bandit_overthewire_esp.md).
 
-> [PDF version](https://drive.google.com/file/d/1CpFSQumI9F7E4xCMI6IeCH2iHqVhNU4o/view?usp=drive_link).
+> [PDF version](https://drive.google.com/file/d/13PI2El5tpnkFtrMERpxR5-CP4iYhQ0CE/view?usp=drive_link).
 
 <br>
 
@@ -55,34 +55,42 @@
 
 <br>
 
-2. After using the _ls_ command, looking for every type of file in that ubication, we realize that there are no contents in the _home_ folder where we can look for the flag of the level.\
-With this in mind, we should be looking in other locations for the file with the flag. For that pourpose, we can use another of the recommended commands in the description of the challenge, _[find](https://www.man7.org/linux/man-pages/man1/find.1.html)_. With this command, we can use the options that it has to guide the search for the file with details that the challenge gave about the file.
+2. After using the _ls_ command, looking for every type of file in that ubication, we realize that the " data.txt " is in the home directory.\
+Knowing this, we can take a peak at the contents of the file. We can do this once again, using _[cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html)_, or we can look at specific parts of the file with commands like _[head](https://man7.org/linux/man-pages/man1/head.1.html)_, that allows us to look at the first lines of a file, and _[tail](https://www.man7.org/linux/man-pages/man1/tail.1.html)_, for the last lines.
 
 <br>
 
 ```
 
-	bandit4@bandit:~$ file / type f ! -executable \
-    > -size 33c -user bandit7 -group bandit6 \
-    > 2>/dev/null
+	bandit7@bandit:~$ head -n 5 data.txt
 
 ```
 
-<br>
-
-- Ok, so quickly dissecting the last command, we establish the place where we want to start the search, `` / ``, this being root, given that we don´t have any details refering to where it might be, we are going to have to search in the entire system.
+> To look at the first 5 lines of the file. The `` -n `` allows us to establish a specific number of lines we want to look at.
 
 <br>
 
-- The `` type f ! -executable `` section, where `` f `` establishes that we are looking for a regular file (every file that is not a directory or a symbolic link) with the added element of the `` ! -executable ``, where we establish that we are looking for a non executable file, with the `` ! `` acting as a negator for the `` -executable `` condition.
+```
+
+	bandit7@bandit:~$ tail -n 5 data.txt
+
+```
+
+> And this one, to look at the last 5 lines of the document. The `` -n `` option works exactly the same way it does with _[head](https://man7.org/linux/man-pages/man1/head.1.html)_.
 
 <br>
 
-- And the other details. We establish the size of the file we are looking for with the option `` -size `` (`` 33c ``, for 33 bytes), `` -user `` to establish the user that owns the file (`` bandit7 ``), `` -group `` to tell the command the group owner of the command (`` bandit6 ``).
+3. _[Head](https://man7.org/linux/man-pages/man1/head.1.html)_ and _[tail](https://www.man7.org/linux/man-pages/man1/tail.1.html)_ shows us that the file has a good amount of contents, showing 5 full lines at the start and at the end of it. One thing that we can do to know the exact number of lines in a document (to know if it is convenient to use [cat](https://www.man7.org/linux/man-pages/man1/cat.1.html) to get the contents), is use [wc](https://man7.org/linux/man-pages/man1/wc.1.html), alongside it's `` -l `` option.
 
 <br>
 
-- At last, we are also going to add to the command `` 2>/dev/null ``, to redirect all of the standard output error messages, to the file _/dev/null_, a file that works as a data discard place in the entire system, specially for error messages, so these eventual error messages, specially for files that we don´t have read the read permissions, don't clog our terminal window and we only obtain the output we are interested in.
+```
+
+	bandit7@bandit:~$ wc -l data.txt
+
+```
+
+> [wc](https://man7.org/linux/man-pages/man1/wc.1.html) gives us the number of newlines, words and bytes of a document. `` -l `` is used to specify that we want the line count of the document.
 
 <br>
 
@@ -90,33 +98,23 @@ With this in mind, we should be looking in other locations for the file with the
 
 <br>
 
-3. Once we execute that last command, if correctly written, we should be obtaining the output `` /var/lib/dpkg/info/bandit7.password ``, effectively confirming that we have obtained the location of the file with the flag. Now, we can print the output of this file normally, as we have been doing to this point, with the _[cat](https://www.man7.org/linux/man-pages/man1/cat.1.html)_ command...
+4. As the output of the [wc](https://man7.org/linux/man-pages/man1/wc.1.html) we get that the " data.txt " has 98567 lines, so it's not going to be convenient to use _[cat](https://www.man7.org/linux/man-pages/man1/cat.1.html)_, unless we want to completely clog the terminal with 98 thousand lines of text.\
+If we look at the recommended commands in the description of the challenge, one of the options can help us look amongst all of the lines on that document, the _[grep](https://www.man7.org/linux/man-pages/man1/grep.1.html)_ command. This command it's going to search for the string " millionth " inside of the document.
 
 <br>
 
 ```
 
-	bandit4@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+	bandit7@bandit:~$ grep -n millionth data.txt
 
 ```
 
-<br>
-
-- Or, we can use another option of the _[find](https://www.man7.org/linux/man-pages/man1/find.1.html)_ command that allows us to redirect the output of a command into another, this being `` -exec ``.
+> The command, as it stands, is going to look for and print the line that contains the string " millionth " in the document (search location) " data.txt ", giving us also the line number in which the string is located (that's the function of the  `` -n `` option in this case). 
 
 <br>
 
-```
-
-	bandit4@bandit:~$ find / type f ! -executable \
-    > -size 33c -user bandit7 -group bandit6 \
-    > 2>/dev/null -exec cat {} +
-
-```
-
-<br>
-
-- Adding `` -exec `` in here, we are telling the terminal to redirect the output of the command that gave us the supposed file that has the level of the flag, into the curly brackets that serve as a place holder for that output. So once in there, _[cat](https://www.man7.org/linux/man-pages/man1/cat.1.html)_ is going to be executed to that file in particular, giving us the output, this being " morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj ". The `` + `` character is only acting as a break character for the command, indicating it's end.
+- And with this last command, we finally get the line that has the flag of the level, to the right of the string " millionth ", just like the description of the challenge said, in the line 830 of the document.\
+The flag of this level, and password for the next is " dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ".
 
 <br>
 
