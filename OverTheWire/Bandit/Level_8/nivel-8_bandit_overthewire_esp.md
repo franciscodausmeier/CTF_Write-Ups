@@ -131,7 +131,7 @@ La _flag_ de este nivel y contraseña del siguiente es " dfwvzFQi4mU0wfNbFOe9RoW
 <br>
 
 <p align="center">
-  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_8/attachments/level-8_bandit_overthewire.png?raw=true"/>
+  <img src="./attachments/level-8_bandit_overthewire.gif"/>
 </p>
 
 > Procedimiento entero.
