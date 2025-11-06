@@ -2,7 +2,11 @@
 
 <br>
 
+> Conocimiento computacional general, criptografía y forensia digital.
+
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/README.md> Inglés <a/> </p>
+
+<br>
 
 -----
 
@@ -12,18 +16,15 @@ Estos son los write-ups, reportes y algunas notas adicionales que guardé de la 
 
 <br>
 
-> _Challenges_ de Skills Generales.
-* [...]()
+> [Challenges de Habilidades Generales [1].]().
 
 <br>
 
-> _Challenges_ de Criptografía.
-* [...]()
+> Challenges de Criptografía.
 
 <br>
 
-> _Challenges_ de Forensia.
-* [...]()
+> Challenges de Forensia Digital.
 
 <br>
 

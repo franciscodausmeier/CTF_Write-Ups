@@ -1,7 +1,5 @@
 # [General Skills Challenges] | [PicoCTF](../README.md)
 
-> General Computational knowledge, cryptography and digital forensics.
-
 > <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.es.md> Spanish - ESP<a/>. </p>
 
 <br>

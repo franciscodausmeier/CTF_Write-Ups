@@ -1,7 +1,5 @@
 # [Desafíos de Habilidades Generales] | [PicoCTF](../README.md)
 
-> Conocimiento computacional general, criptografía y forensia digital.
-
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.md> Inglés - ING<a/>. </p>
 
 <br>
