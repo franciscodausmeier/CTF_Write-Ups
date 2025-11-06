@@ -22,11 +22,11 @@ Estos son los write-ups, reportes y algunas notas adicionales que guardé de la 
 
 <br>
 
-- [Habilidades Generales [1]](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.es.md).
+- [Habilidades Generales](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.es.md).
 
 <br>
 
-- Criptografía.
+- [Criptografía](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/Cryptography/README.es.md).
 
 <br>
 
