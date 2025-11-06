@@ -18,7 +18,11 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-- [General Skills Challenges [1]](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.md).
+> _Challenges_ por categoría.
+
+<br>
+
+- [General Skills [1]](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.md).
 
 <br>
 

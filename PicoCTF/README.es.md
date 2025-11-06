@@ -18,6 +18,10 @@ Estos son los write-ups, reportes y algunas notas adicionales que guardé de la 
 
 <br>
 
+> Challenge categories.
+
+<br>
+
 - [Habilidades Generales [1]](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.es.md).
 
 <br>

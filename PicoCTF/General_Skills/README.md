@@ -1,4 +1,4 @@
-# General Skills Challenges | [PicoCTF](../README.md)
+# General Skills | [PicoCTF](../README.md)
 
 <br>
 
