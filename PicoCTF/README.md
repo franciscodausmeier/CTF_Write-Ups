@@ -6,8 +6,6 @@
 
 > <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/README.es.md> Spanish - ESP<a/>. </p>
 
-<br>
-
 -----
 
 <br>
@@ -20,15 +18,15 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-> [General Skills Challenges [1].]().
+- [General Skills Challenges [1]]().
 
 <br>
 
-> Cryptography Challenges.
+- Cryptography Challenges.
 
 <br>
 
-> Forensic Challenges.
+- Forensic Challenges.
 
 <br>
 

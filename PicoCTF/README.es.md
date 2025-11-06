@@ -6,8 +6,6 @@
 
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/README.md> Inglés <a/> </p>
 
-<br>
-
 -----
 
 Estos son los write-ups, reportes y algunas notas adicionales que guardé de la realización de los wargames de incibe.es.
@@ -16,15 +14,15 @@ Estos son los write-ups, reportes y algunas notas adicionales que guardé de la 
 
 <br>
 
-> [Challenges de Habilidades Generales [1].]().
+- [Challenges de Habilidades Generales [1]]().
 
 <br>
 
-> Challenges de Criptografía.
+- Challenges de Criptografía.
 
 <br>
 
-> Challenges de Forensia Digital.
+- Challenges de Forensia Digital.
 
 <br>
 
