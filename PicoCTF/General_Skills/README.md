@@ -1,8 +1,8 @@
 # General Skills Challenges | [PicoCTF](../README.md)
 
-> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.es.md> Spanish - ESP<a/>. </p>
-
 <br>
+
+> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.es.md> Spanish - ESP<a/>. </p>
 
 ---
 
