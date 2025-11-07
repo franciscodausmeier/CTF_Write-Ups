@@ -2,7 +2,7 @@
 
 <br>
 
-> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/incibe.es/README.md> Inglés <a/> </p>
+> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/incibe.es/README.md> Inglés - ING<a/>. </p>
 
 -----
 
