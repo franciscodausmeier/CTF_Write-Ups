@@ -4,16 +4,28 @@
 
 > <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/README.es.md> Spanish - SPA<a/>. </p>
 
------
-
-These are the write-ups, reports and additional notes I've compiled in the realisation of the incibe.es beginner war games.
-
------
+---
 
 <br>
 
-* ~~...~~~
+These are the write-ups, reports and additional notes I've compiled in the realisation of the [TryHackMe](https://tryhackme.com/challenges) war games.
 
 <br>
 
------
+---
+
+<br>
+
+- [5 minute hacks](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/5_minute_hacks/README.md).
+
+<br>
+
+- [Easy Challenges](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/Easy_Challenges/README.md).
+
+<br>
+
+- Medium Challenges.
+
+<br>
+
+---
