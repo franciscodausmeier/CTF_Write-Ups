@@ -1,4 +1,4 @@
-<div align="center"> <img src="../resources/images/ctf_write-ups/incibe.es_banner/incibe.es_main_banner.jpg"> </div>
+<div align="center"> <img src="../resources/images/ctf_write-ups/incibe.es_banner/tryhackme_main_banner.jpg"> </div>
 
 <br>
 
