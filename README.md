@@ -1,4 +1,4 @@
-<div align="center"> <img src="./resources/images/ctf_write-ups/ctf_write-up_banner_ENG.jpg"> </div>
+<div align="center"> <img src="./resources/images/ctf_write-ups/ctf_write-up_banner_eng.jpg"> </div>
 
 <br>
 
