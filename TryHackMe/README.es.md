@@ -24,7 +24,7 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 
 <br>
 
-- Challengesde nivel medio.
+- Challenges de nivel medio.
 
 <br>
 
