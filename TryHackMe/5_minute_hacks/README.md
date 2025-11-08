@@ -8,7 +8,7 @@
 
 <br>
 
-- [Corridor (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackme/5_minute_hacks/Corridor/corridor_5-minute-hacks_tryhackme_eng.md) | [Corridor (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/5_minute_hacks/Corridor/corridor_5-minute-hacks_tryhackme_esp.md).
+- [Corridor (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/5_minute_hacks/Corridor/corridor_5-minute-hacks_tryhackme_eng.md) | [Corridor (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/5_minute_hacks/Corridor/corridor_5-minute-hacks_tryhackme_esp.md).
 
 <br>
 
