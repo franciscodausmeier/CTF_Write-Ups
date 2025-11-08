@@ -1,4 +1,4 @@
-# 5 minute hacks | [PicoCTF](../README.md)
+# 5 minute hacks | [TryHackMe](../README.md)
 
 <br>
 
