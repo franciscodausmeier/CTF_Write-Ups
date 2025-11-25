@@ -2,7 +2,7 @@
 
 <br>
 
-> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish <a/> </p>
+> <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/README.es.md> Spanish - SPA<a/>. </p>
 
 -----
 
