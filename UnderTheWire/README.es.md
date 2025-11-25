@@ -6,7 +6,11 @@
 
 -----
 
+<br>
+
 Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de la realización de los _wargames_ de UnderTheWire.
+
+<br>
 
 -----
 
