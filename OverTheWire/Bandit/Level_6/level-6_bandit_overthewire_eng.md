@@ -43,7 +43,7 @@
 
 <br>
 
-1. We use the _ls_ command to check for contents of the home folder.
+1. We use the [ls](https://man7.org/linux/man-pages/man1/ls.1.html) command to check for contents of the home folder.
 
 <br>
 
@@ -52,60 +52,46 @@
 	bandit4@bandit:~$ ls
 
 ```
+
 <br>
 
 ---
 
 <br>
 
-2. After getting the location of the " inhere " directory with the previous command, we use the _cd_ command to change our ubication into that directory.
+2. After getting the location of the " inhere " directory with the previous command, we use the [ls](https://man7.org/linux/man-pages/man1/ls.1.html) command to get to see all of the contents of that directory.
 
 <br>
 
 ```
 
-	bandit4@bandit:~$ cd inhere
+	bandit4@bandit:~$ ls -lsah inhere/
 
 ```
+
 <br>
 
 ---
 
 <br>
 
-3. Once inside " inhere ", we use the _ls_ command once again to check for the contents of the folder.
+3. Once we get all of those files in the output of the previous command, we know that the flag of the level and password for the next, is in the context of one of the files in there.\
+To search for those contents, we can use [find](https://man7.org/linux/man-pages/man1/find.1.html) to search files with the characteristics listed in the description of the challenge, as done in the next command... 
 
 <br>
 
 ```
 
-	bandit4@bandit:~/inhere$ ls
-
-```
-<br>
-
----
-
-<br>
-
-4. After the last use of the _ls_ command, we get as the output 20 different files named from " maybehere00 " to " maybehere19 ".\
-So, knowing this, we start looking inside every single one of these folders looking for a non executable file, that has 1033 bytes of size.
-
-<br>
-
-```
-
-	bandit4@bandit:~/inhere$ cd maybehere[..]
+	bandit4@bandit:~$ find ./inhere/*\
     
-    bandit4@bandit:~/inhere/maybehere[..]$ ls -lsa
-    
-    bandit4@bandit:~/inhere/maybehere[..]$ cd ..
+    >> -type f ! -executable -size 1033cc
 
 ```
 
 <br>
 
-> These would be the commands we apply to each and every single folder looking for that file.
+- First, we specify the location for the search with `` ./inhere/* ``, to search in the contents of anything that is inside of the inhere directory.\
+Next, we specify the type of file and it´s condition as non executable with `` -type f ! -executable ``, and it´s size of 33 bytes with `` -size 1033c ``.
 
 <br>
 
@@ -113,21 +99,25 @@ So, knowing this, we start looking inside every single one of these folders look
 
 <br>
 
-5. After looking individually in each folder, we reach " maybehere07 ", were we find a file called " .file2 " that is a non executable that also is 1033 bytes in size. So, we apply the _cat_ command to it, to see if it´s output is human readable, and these are the results.
+4. With the execution of that last command, we should be obtaining the exact file that has all of those characteristics, this being " -file07 ".\
+As the last step for this level, we can just normally [cat](https://man7.org/linux/man-pages/man1/cat.1.html) that file to get the contents, which should have the password for the next level, or we can also use an adition to the command [find](https://man7.org/linux/man-pages/man1/find.1.html), this being `` -exec cat {} + ``. That `` -exec `` option, allows us to grab all the output of the previous part of the command (the exact location of the file with those characteristics) and put it inside the placeholders `` {} `` to execute a command on top of that output. In this case, the command being [cat](https://man7.org/linux/man-pages/man1/cat.1.html). That last `` + `` only works as a break character in this case, to indicate that the comand ends there. 
 
 <br>
 
 ```
 
-	bandit4@bandit:~/inhere/maybehere07$ cat .file2
+	bandit4@bandit:~$ find ./inhere/*\
+    
+    >> -type f ! -executable -size 1033cc -exec cat {} +
 
 ```
 
 <br>
 
-- And that´s where we find the human readable string that makes the _flag_ of this level, and the password for the next level. This being " HWasnPhtq9AVKe0dmk45nxy20cvUa6EG ".
+- And that should be it. The output of the last command shows us that the contents of the file " -file07 " have an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
+
 
 ---
 
