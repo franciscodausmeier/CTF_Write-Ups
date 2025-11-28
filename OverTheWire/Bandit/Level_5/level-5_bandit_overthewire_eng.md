@@ -4,7 +4,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/nivel-5_bandit_overthewire_esp.md)
 
-> [PDF version.](https://drive.google.com/file/d/1wBjkvBEDFVRRRKrCmwPTEbApTvnvmLNn/view?usp=drive_link)
+> [PDF version.](https://drive.google.com/file/d/1fEu8YYAGmWnYbv_EjdmCvgQu81M1W6jw/view?usp=drive_link)
 
 <br>
 
@@ -28,7 +28,7 @@ Tip: if your terminal is messed up, try the “reset” command.
 <br>
 
 > Commands you may need to solve this level.
-- > [ls](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html),  [cd](https://manpages.ubuntu.com/manpages/noble/man1/cd.1posix.html),  [cat](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html),  [file](https://manpages.ubuntu.com/manpages/noble/man1/file.1.html),  [du](https://manpages.ubuntu.com/manpages/noble/man1/du.1.html),  [find](https://manpages.ubuntu.com/manpages/noble/man1/find.1.html).
+- > [ls](https://man7.org/linux/man-pages/man1/ls.1.html),  [cd](https://man7.org/linux/man-pages/man1/cd.1p.html),  [cat](https://man7.org/linux/man-pages/man1/cat.1.html),  [file](https://man7.org/linux/man-pages/man1/file.1.html),  [du](https://man7.org/linux/man-pages/man1/du.1.html),  [find](https://man7.org/linux/man-pages/man1/find.1.html).
 
 <br>
 
@@ -40,7 +40,7 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <br>
 
-1. We use the _ls_ command to check for contents of the home folder.
+1. We use the [ls](https://man7.org/linux/man-pages/man1/ls.1.html) command to check for contents of the home folder.
 
 <br>
 
@@ -56,29 +56,13 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <br>
 
-2. After getting the location of the " inhere " directory with the previous command, we use the _cd_ command to change our ubication into that directory.
+2. After getting the location of the " inhere " directory with the previous command, we use the [ls](https://man7.org/linux/man-pages/man1/ls.1.html) command once to get to see all of the contents of that directory in detail.
 
 <br>
 
 ```
 
-	bandit4@bandit:~$ cd inhere
-
-```
-
-<br>
-
----
-
-<br>
-
-3. Once inside " inhere ", we use the _ls_ command once again to check for the contents of the folder.
-
-<br>
-
-```
-
-	bandit4@bandit:~/inhere$ ls
+	bandit4@bandit:~$ ls -lsah inhere/*
 
 ```
 
@@ -88,32 +72,36 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <br>
 
-4. After the last use of the _ls_ command, we get as the output 10 different files named from " -file00" to "-file09".\
-So, knowing this, we apply the _cat_ command to every single one of the files looking for the one that has human readable output in it, that should be the one that has the flag of the level according to the description of the challenge.
+3. Once we get all of those files in the output of the previous command, we know that the flag of the level and password for the next, is in the content of one of the files in there, and that file is supposed to be of human readable.\
+To search for those contents, we can use [file](https://man7.org/linux/man-pages/man1/file.1.html) to see if the encodings (or type) of each and every file tells us something about the type of contents these contain.
 
 <br>
 
 ```
 
-	bandit4@bandit:~/inhere$ cat "./-file00"
-    
-    bandit4@bandit:~/inhere$ cat "./-file01"
-    
-    bandit4@bandit:~/inhere$ cat "./-file02"
- 
-    [...]
-
-    bandit4@bandit:~/inhere$ cat "./-file07"
-    
-    bandit4@bandit:~/inhere$ cat "./-file08"
-    
-    bandit4@bandit:~/inhere$ cat "./-file09"
+	bandit4@bandit:~$ file ./inhere/*
 
 ```
 
 <br>
 
-- The output of those commands shows us that the file that has the flag is "-file07", with an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
+---
+
+<br>
+
+4. With the last command being executed, we get the type of all 10 files, and immediately, we notice that amongst them there´s one that has a type of encoding that makes it human readable, this file being " -file07 " and it´s type of encoding " ASCII text ". So we apply [cat](https://man7.org/linux/man-pages/man1/cat.1.html) to the file to print it´s contents.
+
+<br>
+
+```
+
+	bandit4@bandit:~$ cat ./inhere/-file07
+
+```
+
+<br>
+
+- And that should be it. The output of the last command shows us the flag of this level and the password for the next, " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
@@ -126,7 +114,7 @@ So, knowing this, we apply the _cat_ command to every single one of the files lo
 <br>
 
 <p align="center">
-  <img src=".attachments/level-5_bandit_overthewire.gif"/>
+  <img src="./attachments/level-5_bandit_overthewire.gif"/>
 </p>
 
 > Entire procedure.
