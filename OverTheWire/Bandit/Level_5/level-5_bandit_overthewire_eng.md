@@ -4,7 +4,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/nivel-5_bandit_overthewire_esp.md)
 
-> [PDF version.](https://drive.google.com/file/d/1fEu8YYAGmWnYbv_EjdmCvgQu81M1W6jw/view?usp=drive_link)
+> [PDF version.](https://drive.google.com/file/d/1iHrQnGSmejy6KXSKDXdKlsgk9HBHtk5K/view?usp=drive_link)
 
 <br>
 
