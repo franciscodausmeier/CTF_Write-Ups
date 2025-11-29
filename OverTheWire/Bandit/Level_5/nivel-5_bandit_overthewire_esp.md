@@ -115,7 +115,7 @@ Sabiendo esto, probamos aplicarle [cat](https://man7.org/linux/man-pages/man1/ca
 <br>
 
 <p align="center">
-  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/attachments/level-5_bandit_overthewire.png?raw=true"/>
+  <img src="./attachments/level-5_bandit_overthewire.gif"/>
 </p>
 
 > Procedimiento entero.
