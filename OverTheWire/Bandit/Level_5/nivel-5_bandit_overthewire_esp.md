@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://drive.google.com/file/d/1wsDNCgaLwbG8hVylI724QnG8qS-XdZjJ/view?usp=drive_link)
+> [Versión en PDF.](https://drive.google.com/file/d/1MaBz3RZavlS8JlRKsIaRwNN8fXm1hgp1/view?usp=drive_link)
 
 <br>
 
@@ -79,7 +79,7 @@ La pista que nos dió la descripción del _challenge_, es que la contraseña del
 
 ```
 
-	bandit4@bandit:~/inhere$ file ./inhere/*
+	bandit4@bandit:~$ file ./inhere/*
 
 ```
 
@@ -96,7 +96,7 @@ Sabiendo esto, probamos aplicarle [cat](https://man7.org/linux/man-pages/man1/ca
 
 ```
 
-	bandit4@bandit: cat ./inhere/-file07
+	bandit4@bandit:~$ cat ./inhere/-file07
 
 ```
 
@@ -115,7 +115,7 @@ Sabiendo esto, probamos aplicarle [cat](https://man7.org/linux/man-pages/man1/ca
 <br>
 
 <p align="center">
-  <img src="./attachments/level-5_bandit_overthewire.gif"/>
+  <img src="https://github.com/franciscodausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/attachments/level-5_bandit_overthewire.png?raw=true"/>
 </p>
 
 > Procedimiento entero.
