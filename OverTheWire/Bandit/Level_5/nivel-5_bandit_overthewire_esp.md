@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_5/level-5_bandit_overthewire_eng.md)
 
-> [Versión en PDF.](https://drive.google.com/file/d/1b3sVwl3pGwjXpkXYYbcyZA6oKkIeFQ2S/view?usp=drive_link)
+> [Versión en PDF.](https://drive.google.com/file/d/1wsDNCgaLwbG8hVylI724QnG8qS-XdZjJ/view?usp=drive_link)
 
 <br>
 
@@ -40,7 +40,7 @@ Tip: si tu terminal queda saturado, intenta con el comando _"reset"_.
 
 <br>
 
-1. Logeamos al nivel 4, y como primer medida, usamos el comando _ls_ para ver los contenidos del directorio _home_ de este nivel.
+1. Usamos [ls](https://man7.org/linux/man-pages/man1/ls.1.html) para revisar los contenidos de la carpeta _home_.
 
 <br>
 
@@ -56,29 +56,13 @@ Tip: si tu terminal queda saturado, intenta con el comando _"reset"_.
 
 <br>
 
-2. Luego de ubicar nuevamente el directorio " inhere " con el último comando, usamos _cd_ para cambiar nuestra ubicación dentro de dicha carpeta.
+2. Luego de ubicar nuevamente el directorio " inhere " con el último comando, usamos [ls](https://man7.org/linux/man-pages/man1/ls.1.html) nuevamente para revisar todo lo que está dentro de esa carpeta.
 
 <br>
 
 ```
 
-	bandit4@bandit:~$ cd inhere
-
-```
-
-<br>
-
----
-
-<br>
-
-3. Una vez dentro de " inhere ", volvemos a usar _ls_ otra vez para ver los contenidos del directorio.
-
-<br>
-
-```
-
-	bandit4@bandit:~/inhere$ ls
+	bandit4@bandit:~$ ls -lsah inhere/*
 
 ```
 
@@ -88,32 +72,37 @@ Tip: si tu terminal queda saturado, intenta con el comando _"reset"_.
 
 <br>
 
-4. A partir de este último uso del comando _ls_, nos damos cuenta que en esa ubicación hay 10 archivos de nombre similar que van desde el " -file00 " hasta " -file09 ".\
-Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando precisamente entre ellos, el que tenga algún tipo de output que sea humanamente leíble. Según la descripción del _challenge_, ese debería ser el que contiene la _flag_.
+3. Una vez podamos ver todos los archivos dentro de " inhere " en el _output_ del comando anterior, siguiendo la descripción del _challenge_, sabemos que la _flag_ del nivel debería estar en el contenido de uno de estos.\
+La pista que nos dió la descripción del _challenge_, es que la contraseña del siguiente nivel se encuentra en un archivo humanamente leíble dentro del directorio " inhere ". Siguiendo esto, lo que podemos hacer es aplicar el comando [file](https://man7.org/linux/man-pages/man1/file.1.html), que nos detalla tipos de archivo a todos los archivos dentro de esa carpeta para ver si alguno de ellos tiene alguna de las codificaciones que son humanamente leíbles.
 
 <br>
 
 ```
 
-	bandit4@bandit:~/inhere$ cat "./-file00"
-    
-    bandit4@bandit:~/inhere$ cat "./-file01"
-    
-    bandit4@bandit:~/inhere$ cat "./-file02"
-    
-    [...]
-    
-    bandit4@bandit:~/inhere$ cat "./-file07"
-    
-    bandit4@bandit:~/inhere$ cat "./-file08"
-    
-    bandit4@bandit:~/inhere$ cat "./-file09"
+	bandit4@bandit:~/inhere$ file ./inhere/*
 
 ```
 
 <br>
 
-- El _output_ de todos los comandos usados en el paso anterior nos deja ver que el archivo que contiene la _flag_ es " -file07 ", siengo el _output_ (y la _flag_) " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
+---
+
+<br>
+
+4. Con el _output_ del último comando obtenemos el tipo de archivo de los 10 archivos en cuestión, e inmediatamente nos damos cuenta que entre ellos, hay 1 que tiene una codificación que indica que es un archivo humanamente leíble, siendo este " -file07 " y su codificación " ASCII text ", lo que indica que es un tipo de archivo de texto normal.
+Sabiendo esto, probamos aplicarle [cat](https://man7.org/linux/man-pages/man1/cat.1.html) para ver si obtenemos la _flag_ en el _output_.
+
+<br>
+
+```
+
+	bandit4@bandit: cat ./inhere/-file07
+
+```
+
+<br>
+
+- Y así adquirímos la _flag_ del nivel dentro del archivo " -file07 ", siengo el _output_ (y la _flag_) " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
@@ -126,11 +115,10 @@ Sabiendo esto, usamos _cat_, y se lo aplicamos a todos los archivos, buscando pr
 <br>
 
 <p align="center">
-  <img src=".attachments/level-5_bandit_overthewire.gif"/>
+  <img src="./attachments/level-5_bandit_overthewire.gif"/>
 </p>
 
 > Procedimiento entero.
 
 <br>
 
----
