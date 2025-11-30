@@ -2,9 +2,9 @@
 # [Level 6](https://overthewire.org/wargames/bandit/bandit6.html) | [Bandit](https://overthewire.org/wargames/bandit/) | [OverTheWire](https://overthewire.org/wargames/)
 > Bandit Level 5 → Level 6
 
-> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/nivel-6_bandit_overthewire_esp.md)
+> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/nivel-6_bandit_overthewire_esp.md).
 
-> [PDF version.](https://drive.google.com/file/d/1pVEcdsG494aXF-p3PQU-ROSAcj5_ocq8/view?usp=drive_link)
+> [PDF version](https://drive.google.com/file/d/1pVEcdsG494aXF-p3PQU-ROSAcj5_ocq8/view?usp=drive_link).
 
 <br>
 
@@ -75,7 +75,7 @@
 
 <br>
 
-3. Once we get all of those files in the output of the previous command, we know that the flag of the level and password for the next, is in the context of one of the files in there.\
+3. Once we get all of those files in the output of the previous command, we know that the flag of the level and password for the next, is inside one of the 20 directories found in there.\
 To search for those contents, we can use [find](https://man7.org/linux/man-pages/man1/find.1.html) to search files with the characteristics listed in the description of the challenge, as done in the next command... 
 
 <br>
@@ -84,7 +84,7 @@ To search for those contents, we can use [find](https://man7.org/linux/man-pages
 
 	bandit4@bandit:~$ find ./inhere/*\
     
-    >> -type f ! -executable -size 1033cc
+    >> -type f ! -executable -size 1033c
 
 ```
 
@@ -99,7 +99,7 @@ Next, we specify the type of file and it´s condition as non executable with `` 
 
 <br>
 
-4. With the execution of that last command, we should be obtaining the exact file that has all of those characteristics, this being " -file07 ".\
+4. With the execution of that last command, we should be obtaining the exact file that has all of those characteristics, this being " .file2 " and it's exact route from home being `` ./inhere/maybehere07/.file2 ``.\
 As the last step for this level, we can just normally [cat](https://man7.org/linux/man-pages/man1/cat.1.html) that file to get the contents, which should have the password for the next level, or we can also use an adition to the command [find](https://man7.org/linux/man-pages/man1/find.1.html), this being `` -exec cat {} + ``. That `` -exec `` option, allows us to grab all the output of the previous part of the command (the exact location of the file with those characteristics) and put it inside the placeholders `` {} `` to execute a command on top of that output. In this case, the command being [cat](https://man7.org/linux/man-pages/man1/cat.1.html). That last `` + `` only works as a break character in this case, to indicate that the comand ends there. 
 
 <br>
@@ -108,13 +108,13 @@ As the last step for this level, we can just normally [cat](https://man7.org/lin
 
 	bandit4@bandit:~$ find ./inhere/*\
     
-    >> -type f ! -executable -size 1033cc -exec cat {} +
+    >> -type f ! -executable -size 1033c -exec cat {} +
 
 ```
 
 <br>
 
-- And that should be it. The output of the last command shows us that the contents of the file " -file07 " have an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
+- And that should be it. The output of the last command shows us that the file " .file2 " has an output of " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
