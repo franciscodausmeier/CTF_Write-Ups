@@ -19,8 +19,6 @@
 	un tamaño de 1033 bytes\
 	no ejecutable
 
-
-
 <br>
 
 ## Información dada por el _challenge_.
@@ -45,7 +43,7 @@
 
 <br>
 
-1. Logeamos al nivel 5, y como primer medida, usamos el comando _ls_ para ver los contenidos del directorio _home_ de este nivel.
+1. Usamos [ls](https://man7.org/linux/man-pages/man1/ls.1.html) para revisar los contenidos del directorio _home_.
 
 <br>
 
@@ -60,28 +58,13 @@
 
 <br>
 
-2. Luego de ubicar nuevamente el directorio " inhere " con el último comando, usamos _cd_ para cambiar nuestra ubicación a ese directorio.
+2. Luego de ubicar nuevamente el directorio " inhere " con el último comando, usamos [ls](https://man7.org/linux/man-pages/man1/ls.1.html) nuevamente para revisar todos los contenidos del directorio en detalle.
 
 <br>
 
 ```
 
-	bandit4@bandit:~$ cd inhere
-
-```
-<br>
-
----
-
-<br>
-
-3. Una vez dentro de " inhere ", usamos _ls_ otra vez, para revisar los contenidos del directorio.
-
-<br>
-
-```
-
-	bandit4@bandit:~/inhere$ ls
+	bandit4@bandit:~$ ls -lsah inhere/
 
 ```
 <br>
@@ -90,24 +73,23 @@
 
 <br>
 
-4. Luego de ese último uso de _ls_, el _output_ nos da como resultado 20 archivos distintos llamados desde " maybehere00 " a " maybehere19 ".\
-Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo que sea no ejecutable, y que tenga 1033 bytes de tamaño.
+3. Una vez obtenemos el _output_ del último comando, nos damos cuenta que el archivo con la _flag_ del nivel tiene que estar dentro de uno de esos directorios del _output_.\
+Para buscar esos contenidos, podemos usar el comando [find](https://man7.org/linux/man-pages/man1/find.1.html) para buscar archivos con las características detalladas en la descripción del _challenge_ de manera recursiva desde " inhere ".
 
 <br>
 
 ```
 
-	bandit4@bandit:~/inhere$ cd maybehere[..]
+	bandit4@bandit:~/inhere$ find ./inhere/*\
     
-    bandit4@bandit:~/inhere/maybehere[..]$ ls -lsa
-    
-    bandit4@bandit:~/inhere/maybehere[..]$ cd ..
+    >> -type f ! -executable -size 1033c
 
 ```
 
 <br>
 
-> Estos son los comandos que aplicamos en cada una de las carpetas en busqueda del archivo con la _flag_.
+- En primera instancia, detallamos la ubicación desde la cual parte la búsqueda con `` ./inhere/* ``, precisamente para buscar entre los contenidos de todo lo que haya en el directorio " inhere ".\
+Luego de eso, especificamos el tipo de archivo que estamos buscando y su condición como no ejecutable con `` -type f ! -executable ``, y finalmente, su tamaño de 33 _bytes_ con `` -size 1033c ``. 
 
 <br>
 
@@ -115,19 +97,26 @@ Con esto en mente, empezamos a buscar dentro de todas estas carpetas un archivo 
 
 <br>
 
-5. Luego de buscar individualmente in cada directorio, llegamos a " maybehere07 ", donde encontramos un archivo llamado " .file2 " que no es ejecutable y además tiene 1033 bytes de tamaño. Nuevamente, le aplicamos _cat_, para ver su si _output_ es leíble, y estos son los resultados.
+4. Con la ejecución de ese último comando, deberíamos estar obteniendo la ubicación exacta del archivo o los archivos que reunan las características detalladas en el comando. En este caso, el archivo obtenido en el _output_ del comando es " .file2 " y su ruta desde _home_ es `` ./inhere/maybehere07/.file2 ``
 
 <br>
 
 ```
 
-	bandit4@bandit:~/inhere/maybehere07$ cat .file2
+	bandit4@bandit:~/inhere$ find ./inhere/*\
+    
+    >> -type f ! -executable -size 1033c -exec cat {} +
 
 ```
 
 <br>
 
-- Y así es como encontramos el archivo con el string que hace a la _flag_ del nivel y la contraseña del siguiente. Esta siendo " HWasnPhtq9AVKe0dmk45nxy20cvUa6EG ".
+- Sabiendo el archivo, como último paso del procedimiento podemos usar normalmente [cat](https://man7.org/linux/man-pages/man1/cat.1.html) el archivo para obtener el _output_ como lo venimos haciendo en niveles anteriores, o podemos hacerle un agregado al comando [find](https://man7.org/linux/man-pages/man1/find.1.html), este siendo `` -exec cat {} + ``. La opción `` -exec `` nos posibilita poder tomar el _output_ de un comando y posicionar este _output_ entre las llaves, que en el caso de este comando sirven como _placeholders_ para tener el _output_ ubicado y poder aplicarle un segundo comando, en este caso y con esta sintaxís sería [cat](https://man7.org/linux/man-pages/man1/cat.1.html).\
+El último caractér, `` + `` en este caso, solamente sirve como _breakcharacter_ para el comando, marcando el fin de este.
+
+<br>
+
+- Y eso debería ser todo. El contenido de el archivo " .file2 " es " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
