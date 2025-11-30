@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/level-6_bandit_overthewire_eng.md).
 
-> [Versión en PDF](https://drive.google.com/file/d/1VtEhAOlyMZdu6N4BQBrLDScsNwuVYxok/view?usp=drive_link).
+> [Versión en PDF](https://drive.google.com/file/d/1SIBf8qr-sUFCmIe9YmCKtkIx_R9ubPCg/view?usp=drive_link).
 
 <br>
 
@@ -80,7 +80,7 @@ Para buscar esos contenidos, podemos usar el comando [find](https://man7.org/lin
 
 ```
 
-	bandit4@bandit:~/inhere$ find ./inhere/*\
+	bandit4@bandit:~$ find ./inhere/*\
     
     >> -type f ! -executable -size 1033c
 
@@ -103,7 +103,7 @@ Luego de eso, especificamos el tipo de archivo que estamos buscando y su condici
 
 ```
 
-	bandit4@bandit:~/inhere$ find ./inhere/*\
+	bandit4@bandit:~$ find ./inhere/*\
     
     >> -type f ! -executable -size 1033c -exec cat {} +
 
