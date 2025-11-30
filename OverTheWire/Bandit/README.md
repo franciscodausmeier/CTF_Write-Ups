@@ -41,6 +41,8 @@
 <br>
 
 
+<!--
+
 - [Level 9 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_9/level-9_bandit_overthewire_eng.md) | [Nivel 9 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_9/nivel-9_bandit_overthewire_esp.md).
 
 <br>
@@ -58,4 +60,6 @@
 
 <br>
 
------
+-->
+
+---
