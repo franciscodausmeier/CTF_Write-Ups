@@ -116,7 +116,7 @@ El último caractér, `` + `` en este caso, solamente sirve como _breakcharacter
 
 <br>
 
-    Y eso debería ser todo. El contenido de el archivo " .file2 " es " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
+- Y eso debería ser todo. El contenido de el archivo " .file2 " es " 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw ".
 
 <br>
 
