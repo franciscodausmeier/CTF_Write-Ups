@@ -4,7 +4,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/Level_6/level-6_bandit_overthewire_eng.md).
 
-> [Versión en PDF](https://drive.google.com/file/d/1SIBf8qr-sUFCmIe9YmCKtkIx_R9ubPCg/view?usp=drive_link).
+> [Versión en PDF](https://drive.google.com/file/d/13BhnJk-vFQgefTedmwjARIP1ys4ij1GB/view?usp=drive_link).
 
 <br>
 
@@ -101,6 +101,11 @@ Luego de eso, especificamos el tipo de archivo que estamos buscando y su condici
 
 <br>
 
+- Sabiendo el archivo, como último paso del procedimiento podemos usar normalmente [cat](https://man7.org/linux/man-pages/man1/cat.1.html) el archivo para obtener el _output_ como lo venimos haciendo en niveles anteriores, o podemos hacerle un agregado al comando [find](https://man7.org/linux/man-pages/man1/find.1.html), este siendo `` -exec cat {} + ``. La opción `` -exec `` nos posibilita poder tomar el _output_ de un comando y posicionar este _output_ entre las llaves, que en el caso de este comando sirven como _placeholders_ para tener el _output_ ubicado y poder aplicarle un segundo comando, en este caso y con esta sintaxís sería [cat](https://man7.org/linux/man-pages/man1/cat.1.html).\
+El último caractér, `` + `` en este caso, solamente sirve como _breakcharacter_ para el comando, marcando el fin de este.
+
+<br>
+
 ```
 
 	bandit4@bandit:~$ find ./inhere/*\
@@ -108,11 +113,6 @@ Luego de eso, especificamos el tipo de archivo que estamos buscando y su condici
     >> -type f ! -executable -size 1033c -exec cat {} +
 
 ```
-
-<br>
-
-- Sabiendo el archivo, como último paso del procedimiento podemos usar normalmente [cat](https://man7.org/linux/man-pages/man1/cat.1.html) el archivo para obtener el _output_ como lo venimos haciendo en niveles anteriores, o podemos hacerle un agregado al comando [find](https://man7.org/linux/man-pages/man1/find.1.html), este siendo `` -exec cat {} + ``. La opción `` -exec `` nos posibilita poder tomar el _output_ de un comando y posicionar este _output_ entre las llaves, que en el caso de este comando sirven como _placeholders_ para tener el _output_ ubicado y poder aplicarle un segundo comando, en este caso y con esta sintaxís sería [cat](https://man7.org/linux/man-pages/man1/cat.1.html).\
-El último caractér, `` + `` en este caso, solamente sirve como _breakcharacter_ para el comando, marcando el fin de este.
 
 <br>
 
