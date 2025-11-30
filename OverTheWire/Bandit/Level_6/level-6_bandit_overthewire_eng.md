@@ -99,7 +99,10 @@ Next, we specify the type of file and it´s condition as non executable with `` 
 
 <br>
 
-4. With the execution of that last command, we should be obtaining the exact file that has all of those characteristics, this being " .file2 " and it's exact route from home being `` ./inhere/maybehere07/.file2 ``.\
+4. With the execution of that last command, we should be obtaining the exact file that has all of those characteristics, this being " .file2 " and it's exact route from home being `` ./inhere/maybehere07/.file2 ``.
+
+<br>
+
 As the last step for this level, we can just normally [cat](https://man7.org/linux/man-pages/man1/cat.1.html) that file to get the contents, which should have the password for the next level, or we can also use an adition to the command [find](https://man7.org/linux/man-pages/man1/find.1.html), this being `` -exec cat {} + ``. That `` -exec `` option, allows us to grab all the output of the previous part of the command (the exact location of the file with those characteristics) and put it inside the placeholders `` {} `` to execute a command on top of that output. In this case, the command being [cat](https://man7.org/linux/man-pages/man1/cat.1.html). That last `` + `` only works as a break character in this case, to indicate that the comand ends there. 
 
 <br>
