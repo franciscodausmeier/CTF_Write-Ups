@@ -8,10 +8,18 @@
 
 <br>
 
-- [Python Wrangling (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Python_Wrangling/python-wrangling_general-skills_picoctf_eng.md) | [Python Wrangling (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Python_Wrangling/python-wrangling_general-skills_picoctf_esp.md).
+- [Obedient Cat (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Obedient_Cat/obedient-cat_general-skills_picoctf_eng.md) | [Obedient Cat (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Obedient_Cat/obedient-cat_general-skills_picoctf_esp.md).
 
 <br>
 
-- [Obedient Cat (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Obedient_Cat/obedient-cat_general-skills_picoctf_eng.md) | [Obedient Cat (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Obedient_Cat/obedient-cat_general-skills_picoctf_esp.md).
+- [Wave a flag (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Wave_a_flag/wave-a-flag_general-skills_picoctf_eng.md) | [Wave a flag (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Wave_a_flag/wave-a-flag_general-skills_picoctf_esp.md).
+
+<br>
+
+<!--
+
+- [Python Wrangling (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Python_Wrangling/python-wrangling_general-skills_picoctf_eng.md) | [Python Wrangling (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Python_Wrangling/python-wrangling_general-skills_picoctf_esp.md).
+
+-->
 
 <br>
