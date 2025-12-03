@@ -1,3 +1,7 @@
+> [Informes y Reportes a CTFs](../README.md)
+
+<br>
+
 <div align="center"> <img src="../resources/images/ctf_write-ups/OverTheWire_banner/overthewire_main_banner.jpg"> </div>
 
 <br>
