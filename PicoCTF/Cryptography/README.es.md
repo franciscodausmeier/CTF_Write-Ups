@@ -1,4 +1,6 @@
-# Criptografía | [PicoCTF](../README.md)
+> [PicoCTF](../README.md) | [Informes y Reportes de CTFs](../../README.md)
+
+# Criptografía
 
 <br>
 

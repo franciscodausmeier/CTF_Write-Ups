@@ -1,4 +1,6 @@
-# Obedient Cat | [Desafíos de Habilidades Generales](../README.md) | [PicoCTF](../.../README.md)
+> [Desafíos de Habilidades Generales](../README.md) | [PicoCTF](../../README.md) | [Notas](../../../README.md)
+
+# Obedient Cat
 
 <br>
 

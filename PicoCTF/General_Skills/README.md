@@ -1,4 +1,6 @@
-# General Skills | [PicoCTF](../README.md)
+> [PicoCTF](../README.md) | [CTF's Write-Ups](../../README.md)
+
+# General Skills
 
 <br>
 

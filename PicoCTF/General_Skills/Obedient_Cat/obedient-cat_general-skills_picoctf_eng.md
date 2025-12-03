@@ -1,4 +1,6 @@
-# Obedient Cat | [General Skills Challenges](../README.md) | [PicoCTF](../.../README.md)
+> [General Skills Challenges](../README.md) | [PicoCTF](../../README.md) | [CTF's Write-Ups](../../../README.md)
+
+# Obedient Cat
 
 <br>
 

@@ -1,4 +1,6 @@
-# Cryptography | [PicoCTF](../README.md)
+> [PicoCTF](../README.md) | [CTF's Write-Ups](../../README.md)
+
+# Cryptography
 
 <br>
 

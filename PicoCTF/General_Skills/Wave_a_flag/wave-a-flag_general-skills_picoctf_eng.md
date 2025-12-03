@@ -1,4 +1,6 @@
-# Wave a flag | [General Skills Challenges](../README.md) | [PicoCTF](../.../README.md)
+> [General Skills Challenges](../README.md) | [PicoCTF](../../README.md) | [Notes](../../../README.md)
+
+# Wave a flag
 
 <br>
 
