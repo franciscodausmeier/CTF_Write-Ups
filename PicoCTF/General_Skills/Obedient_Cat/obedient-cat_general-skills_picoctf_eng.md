@@ -1,7 +1,5 @@
 > [General Skills Challenges](../README.md) | [PicoCTF](../../README.md) | [CTF's Write-Ups](../../../README.md)
 
-<br>
-
 # Obedient Cat
 
 <br>
