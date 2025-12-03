@@ -3,7 +3,7 @@
 # [Bandit](https://overthewire.org/wargames/bandit/)
 > Fundamentos en Unix / Linux.
 
-> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md> Inglés - ING<a/> </p>.
+> <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md> Inglés - ING<a/>. </p>
 
 ---
 
