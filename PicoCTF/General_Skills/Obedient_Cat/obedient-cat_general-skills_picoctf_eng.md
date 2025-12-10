@@ -120,7 +120,7 @@
 <br>
 
 <p align="center">
-  <img src="./attachments/obedient-cat_general-skills_picoctf.mkv"/>
+  <img src="./attachments/obedient-cat_general-skills_picoctf.gif"/>
 </p>
 
 > Entire procedure.
