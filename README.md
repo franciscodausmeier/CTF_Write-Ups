@@ -8,11 +8,11 @@
 
 <br>
 
-- [OverTheWire](./OverTheWire/README.md).
+- [UnderTheWire](./UnderTheWire/README.md).
 
 <br>
 
-- [UnderTheWire](./UnderTheWire/README.md).
+- [OverTheWire](./OverTheWire/README.md).
 
 <br>
 
