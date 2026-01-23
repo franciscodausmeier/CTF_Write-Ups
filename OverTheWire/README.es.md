@@ -20,11 +20,15 @@ Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de l
 
 <br>
 
-* [Bandit [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md)
+- [Bandit [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md)
 
 <br>
 
-* Krypton [2].
+---
+
+<br>
+
+<!-- - [Krypton [2].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Krypton/README.md) -->
 
 <br>
 
