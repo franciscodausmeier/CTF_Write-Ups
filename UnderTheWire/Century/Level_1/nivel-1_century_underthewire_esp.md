@@ -1,9 +1,9 @@
 > [Century](../README.md) | [UnderTheWire](../../README.md) | [Informes y Reportes a CTFs](../../../README.md)
 
-# [Nivel 0](https://underthewire.tech/century)
-> Century Nivel 0 → Nivel 1
+# [Nivel 1](https://underthewire.tech/century)
+> Century, Nivel 1
 
-> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/level-0_century_underthewire_eng.md).
+> Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_1/level-1_century_underthewire_eng.md).
 
 > [Versión en PDF](https://drive.google.com/file/d/1pDUubStXZd9GDU3C0uBup0lDhfysbLS_/view?usp=drive_link).
 
