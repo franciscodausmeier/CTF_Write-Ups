@@ -3,8 +3,6 @@
 # [Century](https://underthewire.tech/century) | [UnderTheWire](../README.md)
 > Powershell Basics.
 
-<br>
-
 ---
 
 <br>
