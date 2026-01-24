@@ -14,7 +14,10 @@
 
 <br>
 
-These are the write-ups, reports and additional notes I've compiled in the realisation of the PicoCTF beginner war games.
+
+<div align="center">
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the [PicoCTF](https://picoctf.org/) beginner war games. </p>
+</div>
 
 <br>
 
@@ -22,7 +25,7 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-> _Challenges_ por categoría.
+> Challenges by category.
 
 <br>
 

@@ -14,7 +14,9 @@
 
 <br>
 
-Estos son los write-ups, reportes y algunas notas adicionales que guardé de la realización de los wargames de incibe.es.
+<div align="center">
+    <p> Estos son los <i> write-ups </i>, reportes y algunas notas adicionales que guardé de la realización de los <i> wargames </i> de [PicoCTF](https://picoctf.org/).
+</div>
 
 <br>
 
@@ -22,7 +24,7 @@ Estos son los write-ups, reportes y algunas notas adicionales que guardé de la 
 
 <br>
 
-> Challenge categories.
+> _Challenges_ por categoría.
 
 <br>
 
