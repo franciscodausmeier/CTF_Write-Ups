@@ -16,7 +16,7 @@
 
 
 <div align="center">
-    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the [PicoCTF](https://picoctf.org/) beginner war games. </p>
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the ![PicoCTF](https://picoctf.org/) beginner war games. </p>
 </div>
 
 <br>
