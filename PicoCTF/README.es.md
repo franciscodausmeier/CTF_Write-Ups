@@ -2,7 +2,7 @@
 
 <br>
 
-<div align="center"> <img src="../resources/images/ctf_write-ups/PicoCTF_banner/PicoCTF_main_banner.png"> </div>
+<div align="center"> <a href="https://picoctf.org/"> <img src="../resources/images/ctf_write-ups/PicoCTF_banner/PicoCTF_main_banner.png"> </a> </div>
 
 <br>
 

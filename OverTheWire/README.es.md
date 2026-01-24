@@ -2,7 +2,7 @@
 
 <br>
 
-<div align="center"> <img src="../resources/images/ctf_write-ups/OverTheWire_banner/overthewire_main_banner.jpg"> </div>
+<div align="center"> <a href="https://overthewire.org/wargames/"> <img src="../resources/images/ctf_write-ups/OverTheWire_banner/overthewire_main_banner.jpg"> </a> </div>
 
 <br>
 
