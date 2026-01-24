@@ -12,7 +12,9 @@
 
 <br>
 
-<p style="text-align: center;"> These are the write-ups, reports and additional notes I've compiled in the realisation of the OverTheWire war games. </p>
+<div style="text-align: center;">
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the OverTheWire war games. </p>
+</div>
 
 <br>
 
