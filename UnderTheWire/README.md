@@ -12,7 +12,7 @@
 
 <br>
 
-These are the write-ups, reports and additional notes I've compiled in the realisation of the UnderTheWire war games.
+<p style="text-align: center"> These are the write-ups, reports and additional notes I've compiled in the realisation of the UnderTheWire war games. </p>
 
 <br>
 
@@ -20,15 +20,15 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-* [Century [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
+- [Century [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
 
 <br>
 
-* Cyborg [2].
+- Cyborg [2].
 
 <br>
 
-* Groot [3].
+- Groot [3].
 
 <br>
 
