@@ -12,7 +12,7 @@
 
 <br>
 
-<div style="align: center">
+<div align="center">
     <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the UnderTheWire war games. </p>
 </div>
 
