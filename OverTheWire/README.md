@@ -12,7 +12,7 @@
 
 <br>
 
-These are the write-ups, reports and additional notes I've compiled in the realisation of the OverTheWire war games.
+<p style=text-align: center> These are the write-ups, reports and additional notes I've compiled in the realisation of the OverTheWire war games. </p>
 
 <br>
 
@@ -20,11 +20,15 @@ These are the write-ups, reports and additional notes I've compiled in the reali
 
 <br>
 
-* [Bandit [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md)
+- [Bandit [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md)
 
 <br>
 
-* Krypton [2].
+---
+
+<br>
+
+<!-- - [Krypton [2].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Krypton/README.md) -->
 
 <br>
 
