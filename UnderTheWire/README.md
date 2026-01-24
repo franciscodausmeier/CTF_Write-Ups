@@ -13,7 +13,7 @@
 <br>
 
 <div align="center">
-    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://www.underthewire.tech/">UnderTheWire</a> war games. </p>
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://www.underthewire.tech/">UnderTheWire</a> wargames. </p>
 </div>
 
 <br>
