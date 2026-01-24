@@ -16,7 +16,7 @@
 
 
 <div align="center">
-    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://picoctf.org/"> PicoCTF </a> beginner war games. </p>
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://picoctf.org/"> PicoCTF</a> beginner war games. </p>
 </div>
 
 <br>
@@ -37,7 +37,7 @@
 
 <br>
 
-- Forensic Challenges.
+<!-- - Forensic Challenges. -->
 
 <br>
 
