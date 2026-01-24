@@ -2,7 +2,7 @@
 
 <br>
 
-<div align="center"> <img src="../resources/images/ctf_write-ups/UnderTheWire_banner/underthewire_main_banner.png"> </div>
+<div align="center"> <a href="https://www.underthewire.tech/"> <img src="../resources/images/ctf_write-ups/UnderTheWire_banner/underthewire_main_banner.png"> </a> </div>
 
 <br>
 
@@ -13,7 +13,7 @@
 <br>
 
 <div align="center">
-    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the UnderTheWire war games. </p>
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://www.underthewire.tech/">UnderTheWire</a> war games. </p>
 </div>
 
 <br>
@@ -22,16 +22,12 @@
 
 <br>
 
-- [Century [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md)
+- [Century](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/README.md).
+
+<!-- - [Cyborg](). -->
+
+<!-- - [Groot](). -->
 
 <br>
 
-- Cyborg [2].
-
-<br>
-
-- Groot [3].
-
-<br>
-
------
+---
