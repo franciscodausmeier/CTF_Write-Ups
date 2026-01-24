@@ -13,7 +13,7 @@
 <br>
 
 <div align="center">
-    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the OverTheWire war games. </p>
+    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://overthewire.org/wargames/">OverTheWire</a> war games. </p>
 </div>
 
 <br>
@@ -22,15 +22,11 @@
 
 <br>
 
-- [Bandit [1].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md)
+- [Bandit](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Bandit/README.md).
 
 <br>
 
 ---
 
-<br>
-
-<!-- - [Krypton [2].](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Krypton/README.md) -->
-
-<br>
+<!-- - [Krypton](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/OverTheWire/Krypton/README.md). -->
 
