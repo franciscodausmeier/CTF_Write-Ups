@@ -12,7 +12,7 @@
 
 <br>
 
-<p style="text-align: center"> Estos son los <i> write-ups </i>, reportes y algunas notas adicionales que guardé de la realización de los <i> wargames </i> de OverTheWire. </p>
+<p style="text-align: center;"> Estos son los <i> write-ups </i>, reportes y algunas notas adicionales que guardé de la realización de los <i> wargames </i> de OverTheWire. </p>
 
 <br>
 
